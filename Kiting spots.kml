@@ -1,0 +1,2315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kiting spots</name>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1690-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1690-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1690-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1690-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1690-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1690-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1690-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1690-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1690-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1690-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1690-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1690-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1690-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1690-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1690-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1690-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1690-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1690-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1690-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1690-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-181-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/181-info_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-181-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/181-info_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-181">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-181-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-181-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-93-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-93-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/93-parkinglot.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-93-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-93-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-93-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC33CC-5000-normal">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC33CC-5000-highlight">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC33CC-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC33CC-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC33CC-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0000FF-3000-115-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0000FF-3000-115-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Golden Gardens</name>
+      <description><![CDATA[Golden Gardens, Seattle, WA <br><br>Intro: Golden Gardens is a popular kiting location on northerly summer and winter winds. On a clear day the backdrop is painted with the Olympic Mountains making this a perfect place for photography or just a day in the park. Kiting here will almost always attract a large crowd as this location is a great place for beach combers, picnics, swimming, volleyball, dog walking, etc. There is plenty of parking, a large grassy area to rig on and lots of riding room making Golden Gardens a favorite among Seattle kiters. Winds here average 15-20 knots but occasionally deliver some 30 knot daze <br><br>Wind: Golden Gardens is direction dependant and is only rideable on a northerly wind due to shadowing from the marina and large bluff to the south. The summer northerlies can be extremely steady while the winter northerlies can be a bit bumpy but usually deliver sunny skies. A common trend is for morning winds to last 3 or 4 hours whereas winds that turn on later in the day will many times blow into the night. The NOAA sensor at WestPoint (approx 5 miles to the south) is accurate with both wind direction and speed. When the reading is N to NW 15 knots or higher it is usually rideable. The Seattle – Winslow ferry readings are very handy for this site as well giving you a good indication of the speeds across the Sound. Check the NOAA Puget Sound forecast for a N 10-20, but keep in mind that Golden Gardens is well-known to blow without a forecast other than a newly forming high pressure. The first day of a new high pressure will usually deliver the best and strongest winds through Puget Sound. Beware of a NE forecast or any E in the wind as it will shadow the launch/land area and make returning to the beach very difficult. <br><br>Water: Although low tides are more desirable Golden Gardens has a large beach making it kiteable on high tides. Currents, on the other hand, can be very strong here sometimes making it a challenge to stay up wind on flood tides (water moving south) forcing even well seasoned riders to walk the beach on occasion. Golden Gardens tends to have very choppy water but strong winds and an ebb tide can sometimes create some clean, desirable swell. <br><br>Rig & Launch: The large grassy field is ideal for sorting and rigging your gear. It is recommended to launch at the north point of the sand beach. This is the safest area when the tide allows and is best with the kite at the water’s edge. On higher tides the secondary launch area is the northern most area of the grass field. This location requires good kite control and a hold-down as the winds can swirl around the north hills of the park. The grass can also be very slippery here and could cause a pilot to lose footing and possible control so please have assistance. Launch your kite on the side of the grass closest the water; keep it at about 75 degrees (not too high and not too low) in order to avoid getting your lines caught in the shrubs along the foot path. Have your hold-down walk with you across the foot path to the water’s edge. The beach drops off quickly enough so that you won’t be able to stand up very far out in the water. <br><br>Warnings: Please be extremely aware of beach-goers! There will be plenty of them as the wind usually blows on sunny days. As mentioned above, the currents are strong here and could make self rescues and swimming in difficult. The north entrance of the Shilshole marina is directly south of the park making this a high traffic area for boats. Stay aware of boat traffic around you at all times and please give them right-of-way no matter what tack you are on. Even though it is fun to put on a show please also keep your distance from sailing regattas as they pass by (races are frequent here). There are some pilings at the north end of the park on the point that are covered when the tide is high, so be aware of their existence. Sea lions frequent the area but have not been known to bother kiters so kiters are asked not to bother them.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.405612,47.692749,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carkeek Park</name>
+      <description>Carkeek is ridable on a NNE- NW. Pretty sweet spot, high tide creates some space problems.  Wind also hovers offshore about 100 yards so be prepared to body drag out to it, and also to swim in after the session.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.3799452,47.7129725,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Richmond Beach</name>
+      <description><![CDATA[Skill level: Advanced<br>Best wind direction: SW, S<br><br>Warnings:<br>Richmond Beach is a public park and can be very busy attimes so please be aware and considerate of beach goers and dogs. The beach isan off-leash beach from November through April. This is also a beach with afair amount of drift wood and large logs so be aware while launching andlanding. Constantly monitor changes in the winds here as they can increasequickly and turn more onshore creating difficult and gusty conditions. Squallsoften roll in to RB. Keep an eye out. Get your kite landed before they arrive. Notethat this beach is steep making it too deep to stand once in the water. Thereis usually a shore break that you must body drag through. The beach is coveredwith rocks and barnacles. There are two sections of old pilings and otherdebris west of the Restrooms. These pilings become submerged as the tide comesin so be extremely careful of this area. Along the beach, there are busy traintracks just north and just south of the main small launch area –within a kite-linelength of the high tide shore. Be confident in your deep water self-rescueskills. <br>Other info:<br><br>Richmond is rideable on a S to SW wind and it can be quitegusty before large approaching storms. This site has its own iKitesurf sensorand is fairly accurate on the wind speeds but the direction has been disabledfor some time now. The Washington State Ferry readings of Edmonds – Kingstonare also a good indicator of the current conditions through that area of theSound. As long as the sound is blowing S or SW the direction at Richmond shouldbe rideable but beware of SW winds creating a very on-shore condition. Look fora S or SW forecast on the Puget Sound NOAA marine forecast. It will often blowon a 10-20 forecast, but 15-25 is ideal. The wind direction is side toside-onshore with a long beach making this a good location for those kitersstill learning to stay upwind. North winds are not ideal here as the beach isshadowed from this direction.<br>Water:<br><br>Tides will affect the water conditions often creating choppyterrain with rising swell as the wind increases or turns more onshore. A strongebb current (water moving N) can make staying up wind a challenge but a strongflood current can make for some fun waves to ride so be sure and monitor tidesand currents at this location. A tide below 9ft is the safest allowing plentyof sand between obstacles and water. Higher tides are possible from the smallsand hill just south of the foot path but please use caution when launching andlanding here and beware of driftwood.<br>Rig and Launch:<br>The best rigging area is the small sandy hill mentionedabove allowing enough room for a hand-full of kites. The safest technique is tolaunch the kite at the water’s edge with the kiter up on the sand with a holddown due to the possible unexpected gusts. Please avoid “up and over” launchesat Richmond—this is a site to observe the rule “stay low and go.” It is also agood idea to body drag out one line-length from shore before riding away foradded safety. <br>Facilities:<br><br>Richmond hosts large bathrooms with flushing toilets in boththe parking lot and on the beach. There is a surplus of parking stalls soparking is never an issue.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.385431,47.763272,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Magnuson Park</name>
+      <description><![CDATA[Skill level: Advanced launch<br>Best wind direction: SE, S, SW<br><br> Magnuson Park is rideable on southerly storm winds which can boast every wind condition you would ever experience. Because it is usually a pre and post-frontal storm location, the winds can sometimes be gusty and unpredictable. Once in a while when the clouds break and wind remains it can make for a very steady session. The wind direction needs to be SSW to SSE to maintain a side-shore to side-on-shore condition. The 520 Bridge sensor is utilized for speed and direction (note this sensor is currently out of calibration on the direction by about 20 degrees, an indicated SW wind is really an actual SSW wind direction) along with the DOT web camera for a visual of the water conditions. The topography of this location creates wind shadows within the launch/land zone on winds with a westerly gradient beyond a SW direction. When the 520 Bridge sensor is sustaining 17 mph or above Maggie is usually kiteable and whitecaps should be visible on the right side (south) of the camera view providing an idea of the current conditions. A NOAA Puget Sound forecast of S or SW 15-25 is ideal although it will sometimes blow on a forecast of S or SW 10-15.<br><br>Water<br>Maggie is on Lake Washington so there are no tides or currents. The water is usually choppy and swell will form during the higher wind speeds. The water can get very warm in the summer (when there is no wind to kite it) to very cold in the winter. It gets colder than Puget Sound so be prepared with the appropriate gear.<br><br> Rig and Launch<br>The common rigging area is the grassy spot just to the south of the parking lot and west of the foot path. Inflate your kite here and run your lines out east towards the water (across the foot-path is fine but be courteous of passers-by as they have the right-of-way). The launch here is one of the more technical ones in Seattle but with proper instruction and assistance it can be done safely. It is, although, not recommended for beginners and there are some important safety precautions to consider as there are no other launching options (although it looks like there are) due to wind shadows from the surrounding trees. Please note it is EXTREMELY important to have a hold down when launching at Maggie as the parking lot and picnic shelter are directly downwind. This site requires an up-and-over launch with someone holding your kite along the west tree line while you stand along the east tree line. The wind can pulsate through the initial launch area so wait for a pull then slowly steer your kite up overhead. Have your hold-down assistant walk with you to the water’s edge with your board. The thin tree-line at this point can shadow the wind a bit so be sure to pass your kite through this area to 45 degrees over the water (3 o’clock) then body drag out at least one line length before donning your board and riding away. When coming back in to this area to land your kite, try to have someone catch your kite on the shore-side grass while you’re still in the water. Bring your kite from 12 o’clock to 9 o’clock into the wind-shadow and onto the grass. If, while kiting, you find yourself downwind of the launch/land zone you can come in just before the swim dock upwind of Sand Point. This area is shallow enough to stand and land or drop your kite water-side for self-retrieval. Be sure to come in south of Sand Point as there is no wind penetration near the shore north of this area.<br><br> Warnings<br>Be aware of the sometimes gusty and strong winds at Magnuson Park. Please do not self-launch at this site and if at all possible have a hold-down while launching and walking to the water. A fifth-line (if properly understood) can be very useful at this location. If you have a problem on the water, do your best to self-rescue to shore south of Sand Point. If you miss the point, the wind drops and you can end up on the other side of the lake in Juanita which could require some hitch-hiking.<br><br> Facilities<br>Magnuson has one p]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2486855,47.6829878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Double Bluff</name>
+      <description><![CDATA[Skill level: Beginner (8ft or lower tide)<br>Best wind direction: SE, S<br>Warnings:<br>Water level, as mentioned above. If you are kiting on a high tide, keep in mind that you will not be able to stand up before your kite is in someone’s front yard. Beware of getting your kite too close to the bluff as the wind can be very unpredictable and can swirl. On extreme tidal exchanges beware of wood debris in the water. The wind speed can both increase and shut off very quickly so keep an eye over your shoulder to watch upcoming conditions. There are a lot of buoys. Take care avoiding them. <br><br><br>DB is a pre-frontal location with the best winds before and after the southerly storms. Look for a SE in Puget Sound, Northern Islands and Admiralty Inlet from the NOAA marine forecast. It will often blow on a forecast of SE 10-20, but SE 15-25 and above is more desirable. Beware of any W in the forecast as it will shut down Double Bluff very quickly. For current conditions, Point No Point and Marrowstone are iKitesurf sensors to watch. The ferry readings of Edmonds – Kingston are also very helpful. The wind is onshore to sideshore in the bay depending on where you ride and the wind can sometimes be incredibly steady. <br><br><br>Water: <br>Double Bluff is a tide dependent location. An 8 ft or below water level is ideal and gives enough sand to rig and launch safely on the beach. When there is a strong outgoing tide, be ready for some nice peeling waves as the wind opposes the current and the water is shallow. The whole bay will empty out into a sand playground on an extreme low tide. Most of the time you will have plenty of waist deep water before running into the beach so it is the perfect location to try and perfect new tricks. <br><br><br>Rig & launch: <br>Please launch on the sand whenever possible! When the tide is high there is no beach, only logs, and no safe launch/land zone. Some kiters rig up in the grass area to keep their gear clean, but remember that this is not an ideal launch/land zone as the wind is onshore with many obstacles (including the bathrooms and bluff). It is a very easy and safe launch when the tide is low and there is sand available. Local kiters have asked that we not launch/land from the grass area near the restrooms at any time. <br><br><br>Facilities: <br>Double Bluff Park has two bathrooms. Except during the winter months, the outside freshwater showers are functioning and are available to rinse you and your gear. It is a well-known off leash dog park so Fido is encouraged to join you as long as he is “kite trained.” The off-leash zone starts at the old windsock located 100 meters north of the restrooms. There is free parking in the lot for approximately 15 vehicles. Please do not block the drive-through.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5169567,47.9815331,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alki</name>
+      <description><![CDATA[Alki beach in West Seattle can sometimes work as a north wind launch. It is only occasionally used as a kiteboarding launch. If there are 4 kiteboarders out it is one of the busiest days of the year. The usual launch is near the NE end of the beach, the first end you get to driving there from the West Seattle bridge. There is about 1/4 mile of beach down wind, and beyond that another 1/4 mile of sidewalk just a bit higher than high tide water, and some beach beyond that before Alki point. The wind is often lighter near shore than 100-200 yards upwind, which makes it hard to get off the beach and into the kiteable wind. If the Alki point wind sensor reads around 20, it is likely barely kiteable with 16-20M kite off the beach, but well powered farther out. <br><br>It is also possible to launch just south of Alki point and near the Lincoln park pool on south winds and a couple places between, but they are all rocky beaches and not used frequently for kiteboarding. The wind is usually stronger near the point, but there is allot of open water north of there so the break down scenario is not good. <br><br>To get there take Spokane street west from I-5. Go over the West Seattle bridge. Exit on the right and turn right and follow the road (harbor ave turns to alki ave) about 3 miles. <br><br>Retrieved from "http://www.seattlekitesurfing.org/index.php?title=Alki"]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.401042,47.58411,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Locust Ave</name>
+      <description><![CDATA[Bellingham's Kite Beach <br><br>This is one of the best places to learn in the state and one of the best places to ride in the North Sound. Lot's of variety and ever changing terrain as the tide changes, lot's of fun. <br><br>Super long reaches, no boat traffic, usually you can stand up anywhere so it's great for trying new stuff and crashing your kite, easy to get it relaunched and lines sorted without swimming in or bailing on your sesh. <br><br>High tides on cranking days can have nice wind waves the break super mushy, head upwind to deep water to get into the good stuff <br><br>Lower tides can be great with a 2+ mile slick of butter smooth water. When the tide is really low either just ride in the narrow strip of the Nooksack River cutting thru the flats or head upwind to deeper water. Summer can also have bathtub warm water on low tide days. Never the same, usually a good time when there's wind When it's low the walk to the water can be pretty far so check out Squalicum Beach or Post Point <br><br>Wind: SE, S, SW <br><br>Parking/Access: Park along shoulder before train trestle, a few hundred yard down the public shore trail to the beach <br><br>Launch: <br><br>below 4' tides you can launch off the tide flats, which is fine sand/silt, messy but rinses right off <br>Above 6-7', there is a strip of sand that you can self launch off but the strip of big rocks between the tide flats and can catch your lines, having someone to help is good. When the tide is 8' + the water is almost up to the trees. There are pilings that you can tie your leash to for Bow self launches or using a 5th line to self launch off the water <br><br>https://drive.google.com/file/d/1c1mQMC1GY5ITA644wrWy5y1qUghSy9xZ/view?fbclid=IwAR1qvOXlr9uSwYX8J6FZ9Gg4l814DJtV_fBpvqIRANPG7FNjg0QajA3PJvs]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5326429,48.7726509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sandy Point Arm Pit</name>
+      <description><![CDATA[The "Arm Pit" is a better option, N end of the bay on the inside at the N end of Salt Spring Dr<br> <br>The old spot at the S tip: No access has been granted by the land owner so that spot is generally avoided. <br> <br>A pretty cushy spot to kite, the launch is a private vacant lot that is used by the entire community. Some day it will be developed but there's loads of tribal issues and who knows when a permit can be obtained. <br><br>Sandy is mostly kited on winter SE's that are to cruddy for Bellingham Bay, also winter high tides are a problem in Bellinghan, but tide is never a problem at Sandy. It's not kited to often because Locust Ave is closer to Bellingham and usually works the same. However, Sandy is exposed to more directions, winter SE's are the main reason we go there, the rare NW's that blow down the Straits of Georgia create some awesome wind waves, winter NE's that crank out of the Frasier River Valley hit Sandy. NE's are not kited much because they are damn cold and the wind is basically straight offshore, next stop the San Juan Islands <br><br>Wind: SE, S, W, NW, NE <br><br>Tide: never a problem <br><br>Parking/Access: park along road, be cool to the residents <br><br>Things to watch out for: NE winds are offshore, no room downwind for error. NW winds usually create mushy breaking waves that create a lot of current making it a little tough to stay upwind]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.7093893,48.7897898,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Birch Bay State Park</name>
+      <description><![CDATA[Rarely works, gusty punchy wind, but when it does go, it usually has nice wind swell that breaks and peels at the point <br><br>Wind: NW, W, sometimes SW <br><br>Tides: not really a problem <br><br>Parking: right there <br><br>Launch: grassy but some picnic tables, road nearby]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.762946,48.906705,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dogfish Point</name>
+      <description><![CDATA[Dogfish Point, the old stand by Chuckanut spot, has been surpassed by a much better spot: Hunter Beach (permission to use Hunter has been given by the land owner (a hunting club), Hunter doesn't involve climbing down a cliff, your car is less likely to get broken into, it has plenty of grassy rigging, and high tides are not a problem<br> <br>Chuckanut works on high pressure Northerly patterns so that usually means blue skies and warm air. Wind often is hair dryer steady, but it can have the odd gusty holey day. Also low tides in summer mean warm water. <br><br>Chuckanut benefits from local topography and a micro climate. To the south the Skagit Valley and Snohomish heat up quickly compared to the San Juan Islands creating a thermal draw. Add a Northerly pattern over the Sound and a venturi effect from Chuckanut Mountain that gives the wind a 5-10 knot boost. When it sets up it goes off almost always between 12:00 and 1:00, and blows till about 4:00 or so. Sometimes it starts sooner and/or lasts longer, but 1:00-4:00 is the time to hit it. <br><br>But with the good there's a price, access is a steep trail, really steep. Also at higher tide the launch is tight, not for beginers. People have hit the rocks downwind when launches went ugly. Use caution. Late summer means eel grass everywhere, it can snag lines and make relaunching tough, wake fins are a must <br><br>Wind: NW, N <br><br>Observations: nwwind.net should be NW and bumping up <br><br>Entrance Is and Vancouver W-NW in the teens in the AM, trending up <br>Skagit Regional, wind trending up in the AM, should be close to double digits by 11:00 <br>Bellingham, wind will be W and trending up to around 10 by 11:00 or noon <br>Increasing Northerly pressure diffs between Vancouver-Seattle, and East Sound-Arlington <br>Tides: high tides around 7'-8' gets really tough to launch, otherwise not much problem <br><br>Things to watch out for: nudists (they tend to stay on the lee side of the point), some sharp rocks/shells on the beach, the rocks downwind of the launch, incoming tides can make it tougher to stay upwind if you are not well powered]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.46357,48.625874,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Purdy</name>
+      <description><![CDATA[The Purdy spit (alias Henderson Bay) is across the Narrows bridge from Tacoma and north about 10 miles. This site has a natural topography favoring SW post frontal or clearing winds. It's a pretty safe place to kite. If you end up being blown downwind you will end up at the end of the bay instead of "out to sea". The lauch is simailar to Richmond Beach with a mixture of sand and rocks. At low tide there is a lot of room and the bay is quite shallow for a ways out making for a good body dragging location. At hight tide the road and power lines are closer to the launch so be carefull! <br><br>Purdy light's up when clearing begins and the post frontal SWesterlies kick in. We used to say that if you have two millibars or more between at least two of the following: Forks-Seattle, Portland-Seattle and Astoria-Seattle, Purdy would be blowing. Though that is not always true it does seem to be pretty accurate. It is most fun on an outgoing tide, which opposes the wind and often has sunshine to go with the clearing. Purdy is sometimes a sneaker place, which blows when not much else is going. It can also tease and disappoint you. <br><br>This is the place to be (or the Straits; Cline Spit, North Beach, or Ediz Hook) when the dreaded convergence zone sets in over Seattle area sites. <br><br>Purdy usually blows if there is a 2 millibar (.06") or greater westerly gradient between Bremerton and at least two to the following: Forks, Hoquiam, Astoria and Portland. Westerly winds blow in from the coast and excellerate as they make their way around the Olympic Mountains. West winds and southwest "clearing winds" are what you want to make the Purdy Spit work. Sweet spot! Thanks, Evanne Howard for contributing your knowledge. You ARE the Queen of Purdy! <br><br>Refer to Puget Sound and Hood canal portion of the Marine Forecast for the forecast and Weather Roundup for exisitng gradients. <br><br><br>Best Wind Direction(s) South Westerlies <br><br>DIRECTIONS From I-5 southbound make your way though Tacoma. At the Tacoma Mall exit (38th Street/Hwy 16) vear off to the right hand lane. You will cross the Narrows bridge in about 5 miles. Head north about 10 miles to the Wauna exit and go right. Follow under the overpass and down the hill to the little town. Take a left at the stop light and travel 1 mile over the bridge to the little post office. You are there! <br><br>Retrieved from "http://www.seattlekitesurfing.org/index.php?title=Purdy"]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.627377,47.403664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ebeys Landing</name>
+      <description>Best on low tide.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.70793,48.191639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Roosevelt</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -120.220664,45.731827,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rufus</name>
+      <description><![CDATA[Off Freeway, head toward the river, take a left and go to the end of the road. Launch and land in the huge, rocky parking lot or down below on the beach. <br><br>Beware of the current here, if the dam is open you can have up to ~6knt UPwind current, which will make your kite seem bigger, and your board lost quickly.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -120.7551788,45.6939025,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Banks Lake</name>
+      <description><![CDATA[Possible kite spot.... sandy beach supposedly around this area.<br><br>Re: Anyone kited Banks Lake in eastern WA?<br>by nesterg on Tue May 20, 2008 7:56 am <br><br>Yea I've kited banks lake a couple of times. Both times wind was out of the south. As you turn into steamboat rock state park go about 100 yds and there is an old rd taking off to the right and left. I went left about another 100 yds and road kinda crumbles off into the lake. There is a little bay there with mostly sandy bottom and pretty shallow. If the water level is high as I suspect it might be right now there is virtually no beach to rig on but check it out. <br>First time I was there wind was weak but fairly steady, the second time the wind was insanely gusty like 5 g 25.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -119.152565,47.827332,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25 Mile Park</name>
+      <description>Old Windsurfing spot, rumored non-existant launch.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -120.261669,47.992392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stevenson</name>
+      <description><![CDATA[East Point - kite spot<br>http://pskite.org/viewtopic.php?f=3&t=11538&view=unread#p88627]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.8781611,45.693081,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jones Beach</name>
+      <description><![CDATA[Jones is awesome, huge Sandy beach supposedly works best in August and September.   2.5hrs from Seattle make it a long day trip.  <br>Directions: I-5 South to Long beach exit. (exit 36?) Go West through town and follow signs to 30 to Oregon.  You'll go over a big ass metal bridge and take a right.  Follow that road for a while through Clatskanie then look for the signs to Jones Beach.  There is a building with a red roof accross the street from the turn off.  follow to the sand and rig.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.310547,46.137025,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sauvies</name>
+      <description><![CDATA[Directions: <br><br>From Portland take US Highway 30 west towards Scappoose/St Helens. Look for the turn-off on the right to Sauvie Island. Take the turn and head over the bridge. If you don't have a parking pass you can buy one at the small shop on the corner. Take the road that goes back under the bridge. When you reach the fork in the road head to the right. Continue for 6 miles and turn right onto Reeder Rd. Follow this road for 6 more miles.  You will pass a harbor on the right, that means your almost there. In another mile you will see a parking area on the left with stairways heading over the berm on the right, this is Reeder Beach. Drive to the last stairway and park. This is where all the kiteboarders setup and launch. Set up north of the stairway.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.774931,45.774909,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sunset Beach</name>
+      <description><![CDATA[Directions . Hwy 26: <br>Sunset Beach is located 110 miles west of Portland on Hwy 101 @ Sunset Beach Lane. Take Hwy 26 west and follow the signs to Seaside-Astoria Hwy 101. Continue north through Seaside approximately 8 miles to Sunset Beach Lane and take it west. The road ends as an access point to drive on the beach. Occasionally, this access is not suitable for 2wd vehicles so take care; off-beach parking and porta-johns are available at a turn-out prior to driving on the beach. <br><br><br><br>Directions . Hwy 30: <br>Sunset Beach is located 110 miles west of Portland on Hwy 101 @ Sunset Beach Lane. Take Interstate 5 north to the Hwy 432 Longview exit. Follow the signs to Astoria and take Hwy 433 over the bridge to Oregon Hwy 30 west approximately 50 miles to Astoria. Continue through Astoria towards Seaside and Hwy 101. Follow Hwy 101 approximately 12 miles to Sunset Beach Beach Lane and take it west. The road ends as an access point to drive on the beach. Occasionally, this access is not suitable for 2wd vehicles so take care; parking off the beach and porta-johns are available at a turn-out prior to driving on the beach. <br><br>Guidelines: <br>- Accessibility to vehicles on the beach means you are launching and landing on a public roadway. Beware of parked and moving vehicles. The beach is patrolled with radar and the speed limit is strictly enforced at 25mph. <br>- Camp Rilea (north of Sunset Beach approximately 3 miles and extends north another mile) is an Oregon National Guard military reservation and it is common for them to conduct firing exercises. Guards will be posted and military vehicles will be present warning beach users to keep out. When there are not firing exercises, it is OK to be in the area. <br>- Coordinate downwinders with others or by yourself. It is easy to hitch a ride back to your vehicle; there always seems to be an empty pickup bed going back upwind. <br>- Rig kites and park your vehicles up next to the sand dunes leaving the hard-pack sand for traffic, other beach users, landboarders, etc. <br>- Fires are permitted on the beach but there is no camping and you need to be gone by 10pm. <br>- Obviously, ocean conditions can range from lake-like to critical. Always watch for large waves, rips, logs/branches, and sea life. <br>- Water temperatures range from the low 40.s to low 60.s depending on the season/currents. Typical wetsuit thicknesses are 5 or 4 mil with or without booties/hoods. <br>- Helmets, leashes, and life jackets are recommended. <br>- It is not wise to kite further out than you are willing to swim; take ocean conditions into making that decision. Help cannot be expected from emergency services and depending on the conditions, other kiters may not be able to assist. <br>- The beach is safe and a fun place to learn or rip. Respect other users of the beach and you are good. <br><br><br><br>Tips: <br>- NWS Clatsop sensor is what you want to watch. You'll need your whole board and kite quivers as the conditions can range dramatically. <br>- Wind can be blowing as early as 11am from the N NW in the late spring/summer/early fall and blow until dark. Best between 2-6pm. <br>- Short periods (2-4 hours) of good SW to W winds can be had in the off-season. <br>- Ft. Stevens. Parking Lot D is on the Lower Columbia and can offer good NW and E winds if the beach is not to your liking. Watch the currents. <br><br>(Special thanks to barfly for compiling this guide!)]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.978868,46.178048,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sunset Beach</name>
+      <description><![CDATA[Directions . Hwy 26: <br>Sunset Beach is located 110 miles west of Portland on Hwy 101 @ Sunset Beach Lane. Take Hwy 26 west and follow the signs to Seaside-Astoria Hwy 101. Continue north through Seaside approximately 8 miles to Sunset Beach Lane and take it west. The road ends as an access point to drive on the beach. Occasionally, this access is not suitable for 2wd vehicles so take care; off-beach parking and porta-johns are available at a turn-out prior to driving on the beach. <br><br><br><br>Directions . Hwy 30: <br>Sunset Beach is located 110 miles west of Portland on Hwy 101 @ Sunset Beach Lane. Take Interstate 5 north to the Hwy 432 Longview exit. Follow the signs to Astoria and take Hwy 433 over the bridge to Oregon Hwy 30 west approximately 50 miles to Astoria. Continue through Astoria towards Seaside and Hwy 101. Follow Hwy 101 approximately 12 miles to Sunset Beach Beach Lane and take it west. The road ends as an access point to drive on the beach. Occasionally, this access is not suitable for 2wd vehicles so take care; parking off the beach and porta-johns are available at a turn-out prior to driving on the beach. <br><br>Guidelines: <br>- Accessibility to vehicles on the beach means you are launching and landing on a public roadway. Beware of parked and moving vehicles. The beach is patrolled with radar and the speed limit is strictly enforced at 25mph. <br>- Camp Rilea (north of Sunset Beach approximately 3 miles and extends north another mile) is an Oregon National Guard military reservation and it is common for them to conduct firing exercises. Guards will be posted and military vehicles will be present warning beach users to keep out. When there are not firing exercises, it is OK to be in the area. <br>- Coordinate downwinders with others or by yourself. It is easy to hitch a ride back to your vehicle; there always seems to be an empty pickup bed going back upwind. <br>- Rig kites and park your vehicles up next to the sand dunes leaving the hard-pack sand for traffic, other beach users, landboarders, etc. <br>- Fires are permitted on the beach but there is no camping and you need to be gone by 10pm. <br>- Obviously, ocean conditions can range from lake-like to critical. Always watch for large waves, rips, logs/branches, and sea life. <br>- Water temperatures range from the low 40.s to low 60.s depending on the season/currents. Typical wetsuit thicknesses are 5 or 4 mil with or without booties/hoods. <br>- Helmets, leashes, and life jackets are recommended. <br>- It is not wise to kite further out than you are willing to swim; take ocean conditions into making that decision. Help cannot be expected from emergency services and depending on the conditions, other kiters may not be able to assist. <br>- The beach is safe and a fun place to learn or rip. Respect other users of the beach and you are good. <br><br><br><br>Tips: <br>- NWS Clatsop sensor is what you want to watch. You'll need your whole board and kite quivers as the conditions can range dramatically. <br>- Wind can be blowing as early as 11am from the N NW in the late spring/summer/early fall and blow until dark. Best between 2-6pm. <br>- Short periods (2-4 hours) of good SW to W winds can be had in the off-season. <br>- Ft. Stevens. Parking Lot D is on the Lower Columbia and can offer good NW and E winds if the beach is not to your liking. Watch the currents. <br><br>(Special thanks to barfly for compiling this guide!)]]></description>
+      <styleUrl>#poly-0000FF-3000-115</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -123.993587,46.199557,0
+              -123.979855,46.178642,0
+              -123.977966,46.17983,0
+              -123.994617,46.203716,0
+              -124.011955,46.227353,0
+              -124.01298,46.22687,0
+              -123.993587,46.199557,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fort Flagler Marrowstone Is.</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXi5aYFoHPtPw_0v1hOsxwMmO0TJbH4mHsDxKzB-oMVMBL5caudkFF-_t8V0DvTKge5nFfxMYr3x0ax764LZIV5o8ppuSC4rA-XqoOsnDwjLuQk1SPtKGyvX4N1LXf6ic3WUYS777dTpTtvImZOb3su-jYmuoe0Nn2M8DcrMwWyMwd_vtCQXvEIoNmWkZ3VQnWwUHo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Lauren from the campground good on a S or N.<br><br>Windman (Duncan) writes:<br><br> I launched at the lower right hand corner of this picture. The tide was low and it was an easy launch. Just past the dock is a nice grassy area that would work well. On Thursday when I arrived it was blowing from the North and would have been pretty cool flat water riding but I had to unpack and set up camp. <br><br>The launch is inside the pay camping area. There may be a lower day use fee. There is also another park just south of Fort Flagler that might work. <br><br>The wind seemed to funnel a little through the bay and I was suprised at how lit I was on the 13. Water was very shallow and I could see the bottom most of the time. <br><br> Camping with the family at Fort Flagler and I got a great session on the 13m Waroo Pro. Could have been on the 9. It was a pretty good spot for a s-sw. I kited the west side or Kilisut Harbor. Slightly gusty and relatively flat water conditions with small chop.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXkpcFd-49nbPVFBXfEOI-wj6MfNWZFxjAvvzLc_g8xvTFhJZYN7tQclWjVMIPMYHkOBtzGPBMPT22dgeb8hTApSpcbQ37Id2BmIWg3sTebst_kkfwmKyB48XR1eBB5eQ59DaCTWASGXza_-SBPHeh4dIOtKDLPvpqYQx7662uXeQRKovVhvNsHM0B7Maei8u3Fzdo?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXi5aYFoHPtPw_0v1hOsxwMmO0TJbH4mHsDxKzB-oMVMBL5caudkFF-_t8V0DvTKge5nFfxMYr3x0ax764LZIV5o8ppuSC4rA-XqoOsnDwjLuQk1SPtKGyvX4N1LXf6ic3WUYS777dTpTtvImZOb3su-jYmuoe0Nn2M8DcrMwWyMwd_vtCQXvEIoNmWkZ3VQnWwUHo?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXkpcFd-49nbPVFBXfEOI-wj6MfNWZFxjAvvzLc_g8xvTFhJZYN7tQclWjVMIPMYHkOBtzGPBMPT22dgeb8hTApSpcbQ37Id2BmIWg3sTebst_kkfwmKyB48XR1eBB5eQ59DaCTWASGXza_-SBPHeh4dIOtKDLPvpqYQx7662uXeQRKovVhvNsHM0B7Maei8u3Fzdo?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.7259455,48.0931666,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Wenatchee State Park</name>
+      <description><![CDATA[Good on both Thermal and Frontal.<br><br>The launch from the state park is ok. There is plenty of room to lay out lines and get your kite in the air. Most people layout on the south end of the beach away from the swimmers. The only difficulty is that the wind is straight on shore and hits up against a bank of trees that creates a lot of turbulent air.  There is not much distance to tack back and forth to work up wind. Most beginners start at the south end and body drag out to cleaner air about 20 ~30 yards away from the beach. Also, the wind tends to be light close to the beach as it lifts up to get over the hills downwind. It takes a little work to get out into the lake, but once out there it is a good time. <br><br>Just wanted to add Stay out of the swimming area and my opinion is its not a beginner friendly area. <br><br>Hazards are dead heads in the water and not all of them flow with the wind. The South end is shallow for about 5 yards out. On shore wind. <br><br>Please if you go here be careful of others, just like every beach we would hate to see it get closed. There are allot of beach goers and they don’t get out of your way. They have no idea of the potential danger. The house next to the parking lot is the parks department and big brothers ranger is watching from the window. At this time all he has done is suggest U beach.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -120.7330042,47.8103307,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manzanita</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -123.9437461,45.7241183,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cline Spit</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5tNLoVEw6RbGW2oznr9B82ZBHEdU52_OgbU6cY3pvu2U0etAB7pQf9PqWpEKxxmmRz2G5rxUBdsGWXV9bTOk5gJ-FZgmqa9vrpf6E04YI" height="200" width="auto" /><br><br>do not recommend this place for beginners - it was almost strait onshore wind with little beach to launch and land...and telephone lines very close to the beach - a kitemare just waiting to happen.<br>Also, see this thread: http://pskite.org/viewtopic.php?f=3&t=8953<br>Otherwise that place rocks.<br><br>Wind sensor nearby:]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v5tNLoVEw6RbGW2oznr9B82ZBHEdU52_OgbU6cY3pvu2U0etAB7pQf9PqWpEKxxmmRz2G5rxUBdsGWXV9bTOk5gJ-FZgmqa9vrpf6E04YI</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -123.1519333,48.1497463,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anderson Point</name>
+      <description><![CDATA[A great unknown spot called Anderson Pt, North of Olalla Pt. Hardly anyone uses this spot for general purposes and no one, that I am aware of, has kiteboarded here. On a Northerly or Southerly this sandy beach works. Straight side shore on shore wind and a light current is always going to the North no matter what the tide is doing. I just finished about a 2-3 mile down winder on a Northerly 15 from Anderson Pt to my house just South of Olalla Pt, Al's grocery and it worked perfect. A little gusty at my beach, but my Bularoo 10 handled it great. I've learned a lot from Andy at Bellingham Kiteboarding and cousin Craig and have been practicing on my own and am loving this sport.The road you turn off of Banner is Millahanna Rd. It's just North of Lala Cove Ln, Olalla Treatment Center, and once you turn onto Millahanna Rd, follow to parking lot. It looks like a rocky dirt driveway, but you are in the right place. The walk is about 8-10 minutes to the beach and there you are. It is a public park and their should be a small brown park sign off of banner indicating the public park road entrance. If you are coming from the North on Banner and you've started heading down the curvy part of Banner towards the water, you've gone too far. It's just north of Lala Cove Lane. I'm looking out the window now & it's heavy blowing 15+ now with a 1-2' swell.This beach has sand at the top and then has smooth river rock, then sandy at low tide. Also, before the beach there is a large grassy area that is good when dry. It's off banner road and the only problem is about a 10 minute walk from your car. It's a good spot for me because its close and I prefer the Northerly so I can do downwinders to my beach. Not good enough to stay upwind yet. On a good southsound Northerly the wind seems to funnel right down the channel and is very steady. Also, on a good Northerly you get some good chop/swell because of the ebb like current.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.540646,47.438074,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Pond</name>
+      <description>Works on an eaterly, super flat butter water.  Go to the end of the road and park.  Walk on one of the trails to the beach and ride!!</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.9890174,46.2252447,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crockett Lake Slick</name>
+      <description><![CDATA[Not much info, looks good on a SE, S, SW<br><br>wind was very up and down in the westerly winds..... but the flat water was divine... need to go back for some more of that in a southerly.... Water was not as Nasty as I expected... quite salty in fact.... (In southerly winds.. this will be the biggest slick ever)]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.667847,48.164826,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keystone</name>
+      <description><![CDATA[Ridable on a W SW S SE<br><br>West wind was steadier and their was some swell... interesting swell as it wrapped around camp casey point.... On starbord tack, it was head on swell... on port... you could ride with the swell without going upwind... very interesting conditions...]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.6651,48.159788,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waterville</name>
+      <description><![CDATA[Rad snowkiting spot, no obsticles and doesn't really matter wind direction. Best beginner snowkite spot. Park on the side of the road and kite on either side on Rd 1 in the green wheat feilds. About 3 hours from Seattle.<br> <br>From Wenatchee, it's a 30 minute drive and easily enough to find. <br>Stay on highway 2 leaving Wenatche. Right before entering the town of Waterville, take a right on P street and go about a mile in. Take a left and park on Road 1 NW.Web Cam (http://www.nwwintersportsman.com/bm3c.htm)]]></description>
+      <styleUrl>#icon-1690-0097A7</styleUrl>
+      <Point>
+        <coordinates>
+          -120.087776,47.627223,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boulder Park</name>
+      <description><![CDATA[I was told Boulder Park is up HWY 97 about 20 min further from the turn off onto HWY 2 up to the Waterville. It is past the Bebe Bridge and up McNiel Canyon.  There is a parking area on the right usually filled with snowmobilers, go past them up a road about 200 yards and park on the side of the road.  Launch and enjoy the best snowkiting in Washington!<br><br>note: Steve Gibbons of the NPS says that this is private land. Access concerns?]]></description>
+      <styleUrl>#icon-1690-0097A7</styleUrl>
+      <Point>
+        <coordinates>
+          -119.827881,47.835283,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Easton Airstrip</name>
+      <description><![CDATA[The airstrip at Easton. The strip is close to aircraft in the winter and primarily used by snowmobilers. <br><br>John Penxa tip... <br><br>Web Cam (http://www.wsdot.wa.gov/aviation/webcam/Easton.htm)]]></description>
+      <styleUrl>#icon-123</styleUrl>
+      <Point>
+        <coordinates>
+          -121.187439,47.253951,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swauk Prairie</name>
+      <description>Tip dug up from Penxa on SKA circa 2003. No other information is known.</description>
+      <styleUrl>#icon-123</styleUrl>
+      <Point>
+        <coordinates>
+          -120.739317,47.204642,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Brown's Point]]></name>
+      <description>Tacomas local spot.  Works on a N and S, rig up on the grass, launch and walk downwind to the beach.  Be careful of the concrete post and the flagpole.  Great spot though especially when there is a convergence over Seattle.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.443678,47.305702,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lyle Sandbar</name>
+      <description><![CDATA[Supposed to be sweet flat water, but watch out for logs....<br><br>We are currently in the development stages of a short, medium and long term plan for safe access for kiteboarding at the Lyle Sandbar. This launch is faced with MANY additional issues above and beyond what we have overcome at both Hood River and Stevenson. We hope the kiteboarding community can be patient while we put plans in place to do the right thing for all parties involved. We may in the near future make a request for help from the kiteboarding community for a beach cleanup. <br><br>In the meantime the CGKA requests that all kiteboarders visiting the Lyle <br>sandbar follow a few simple guidelines: <br><br>1) Parking: Park your vehicle on the North side of highway 14 in the <br>gravel parking lot. The rail road personnel need access to the path leading down to the tracks. They have been known to bring very large vehicles down that pathway and it is not appropriate to park on the side of the pathway. By law, cars must be parked further than 50 feet from tracks. <br><br>Please do not park along the side of the road as it's for emergency parking as well. It is dangerous and distracting to other drivers and will only cause issues. If the parking lot is full, try your best to find an alternative place to park. <br><br>2) It is illegal to cross the railroad tracks and you are subject to ticket or arrest. CGKA does not condone this activity. Because we have no alternative solution at this point, if you feel you must do so - please do it without attracting any attention and look and listen before you place yourself in danger or make a train conductor angry. Be invisible, don't attract attention. Need we say more? <br><br>Thank you for your support!]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.2969169,45.697698,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Beach</name>
+      <description><![CDATA[Launch disappears at high tide (not exactly, you can still launch in the grass). Waves a great on high wind days. Look for strong W straights forecast and passing cold fronts.<br><br>The best "terrain" in the sound! This is definitely a place for the experienced wave sailor, especially with the onshore conditions and short swell period. Not recommended to someone for their first foray in wave sailing. Somewhat more challenging than other wave sailing spots along the Washington and Oregon coast mainly because of the shore pound.<br><br>Directions:<br>West Beach is located on the south side of Joseph Whidbey State Park, about 3 miles northwest of Oak Harbor on Whidbey Island. Pull into the small parking lot right next to the road to enter the park just north of the houses along the beach. The road coming from Oak Harbor leads directly into it.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.716298,48.308146,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Swan Lake</name>
+      <description><![CDATA[*Potential Spot*<br><br>Should work on same conditions as West Beach.  Need to verify that the lake is deep enough and has no dangerous submerged obstacles.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.733421,48.200536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ocean Shores</name>
+      <description><![CDATA[Works on W-NNW, probably a SW and S too.  Waves can be an issue and I've only rode inside on the flats.  You can drive onto the beach too and do downwinders pretty easily.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -124.172716,47.006948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bonzai</name>
+      <description><![CDATA[Bonzai is "unofficially/officially" closed. The land owner has complained. Please use Hunter Beach instead.<br><br>Park across from the Bonzai tree store. Walk a few minutes, really low tides here but butter flat water when its good.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.424023,48.595478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chuckanut Boat Launch</name>
+      <description>Not a good launch spot unless you have a boat and can go out and drift launch.  Zero wind at launch though, must get into channel.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.493584,48.653931,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East Beach</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXNnYb72xD4lBhc4U3pPCdUQ5-O_pG5wI4cfnD9jwQx5XCwRYL7YWJ0a8iLSbKWFFMSztXmT39AKbJ3Ba_i4X3bNv5_PltWXq9spAdHygOpw14PpOT1uXf_a0WNjehKIfE1r7QBp2lIBiyXJAWVDTmyHcev7TcL-GogXv0dFQTjIly8ZDFmnsISjBU_zybBY2Paxu0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Long sandy beach works well on a SE condition. There is ample parking and at mid tides, plenty of beach. The water is more choppy than further north at Flagler (same SE wind works there). <br>Works best on incoming tides.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXNnYb72xD4lBhc4U3pPCdUQ5-O_pG5wI4cfnD9jwQx5XCwRYL7YWJ0a8iLSbKWFFMSztXmT39AKbJ3Ba_i4X3bNv5_PltWXq9spAdHygOpw14PpOT1uXf_a0WNjehKIfE1r7QBp2lIBiyXJAWVDTmyHcev7TcL-GogXv0dFQTjIly8ZDFmnsISjBU_zybBY2Paxu0?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.683897,48.0568,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mt. St. Helens</name>
+      <description>Not sure where the spot is but supposedly there is some really good snowkiting here.</description>
+      <styleUrl>#icon-123</styleUrl>
+      <Point>
+        <coordinates>
+          -122.21715,46.276911,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kayak Point</name>
+      <description><![CDATA[This is how I predict Kayak Point <br>Check this URL showing Pacific Vectors This visually gives you a center of the front and clues to when it will hit the coast (if you check it often enough). <br>Get a wind speed reading of +15 SE (not ESE or S) for Everett off the weather radio. <br>Get a pressure reading that has a minimum of 1 pt between Bellingham and Seattle also available from the weather radio<br><br>Go when the gradient between Seattle and Bellingham has been between .07 and .09 inches.<br>While the gradient between Arlington and Port Angeles has been between .12 and .2 inches. <br>The distances are comparable. Seattle to Bellingham is approx. 80 miles and Arlington to Port Angeles is approx. 60 miles.<br><br>Know that Kayak is extremely sensitive to wind direction and it's rare to have more than a few hours of good SE sailing. But when it's good, it's reeeeally good. High tides also bring the snags off the beach. <br><br>Orcas are spotted in the channel regularly and seals are usually near shore jibe markers.<br> <br>D I R E C T I O N S  Just north of Everett on I-5, take the Marysville exit and head west for about 15 miles until you see the park sign on the left side. Lots of parking and rigging areas. A fishing dock and nice bathrooms.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.365723,48.134017,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Badger Mountain</name>
+      <description><![CDATA[Edit: This seems to be created on the wrong location. I believe the OP meant to create this by Badger Mountain Ski Area near Waterville.<br><br>Wide open and windy! Wow, what a spot, only an hour from home! The wind was reported to be West @10-12.<br>Driving out there looking at limp flags wondering what I was doing....but when I got up on top, it was cranking windy 20-25!<br><br>Went out there with Kathrin, and met Michael there who is a local from Wenatchee that wants to learn to snowkite.<br>Kathrin was roosting around on the 2 meter training kite and had it all under control. Thanks for the Photos and video Kathrin!<br>Michael had a go at the trainer kite as well and had a blast! He even got a few feet of air!<br>I got going on the 9 meter and flew all over the wheat fields and explored this vast plain!<br>Over Highway 2 at about 40 feet had to be one of the highlights of the day!<br>Back out there for more action in the morning!<br><br>Central Washington rules, open terrain and plenty of snow blanketing those nice rolling hills of the Palouse.<br>Located on the east side of the cascades, it has the advantage of clearer weather than most other places in Washington, Blue Bird!<br>Come on out!<br>APWeb Cam (http://www.nwwintersportsman.com/bm3c.htm)]]></description>
+      <styleUrl>#icon-123</styleUrl>
+      <Point>
+        <coordinates>
+          -119.320793,46.23427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lowman Beach Park</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5DW3hPifT7HQmtpEfxj_xAVLJmLB15neGOvYff6CGt9j63xos_gFYC9PiUngfu3oEcm4bhdkUsMxdYVjvNzn_Z91WRezQN8PHUmDTUTgKrEnRvvDj6lCfkTZJB7EOm" height="200" width="auto" /><br><br>SW...<br><br>"You launch near the tennis courts? I checked it out at high tide last night and seems doable for someone with more experience (probably easier than Maggie). You would have to sit on the bulkhead and hop down 3-4 feet after the kite was airborne. A little sketch, but probably the best option for a high tide launch in that area.<br><br>I'm interested because I live just north of there and it could be a nice little downwinder on a southwesterly: Drive down, board up, retrieve car with bike. Let me know if you go out there again sometime."]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v5DW3hPifT7HQmtpEfxj_xAVLJmLB15neGOvYff6CGt9j63xos_gFYC9PiUngfu3oEcm4bhdkUsMxdYVjvNzn_Z91WRezQN8PHUmDTUTgKrEnRvvDj6lCfkTZJB7EOm</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.398016,47.540383,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Juanita </name>
+      <description>Good on a S-SW, strait onshore launch with powerlines downwind.  Difficult launch, expert only.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.216399,47.704202,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mags Soccer Fields</name>
+      <description>Good for Kite Ground Board on a Northerly.</description>
+      <styleUrl>#icon-61</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2534344,47.682769,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marymoore Park</name>
+      <description>Kite Ground Board spot.  Rideable on a southerly.</description>
+      <styleUrl>#icon-61</styleUrl>
+      <Point>
+        <coordinates>
+          -122.11647,47.664925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crystal Moutain</name>
+      <description>Supposedly some snowkiting around here.  Penxa would be the one to ask...</description>
+      <styleUrl>#icon-1690-DB4436</styleUrl>
+      <Point>
+        <coordinates>
+          -121.478577,46.932565,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Driftwood</name>
+      <description><![CDATA[So you might have heard about Driftwood before... some accolades, and some tall tales of indiana jones journeys.... Either way... this is one of my most favorite places to kite in Bellingham, and this is the first video I have shot there. <br><br>Parking here is somewhat limited at the trail head, so PLEASE park considerately. If the parking lot area is full, go find another parking spot that is further away, and just walk.. (Be careful not to park on people&apos;s lawns, or block the flow of traffic) <br><br>The trail is really not that bad. I had ACL surgery 45 days ago, am wearing a knee brace and hobbled down yesterday without any trouble... Just take your time... <br><br>As for access.. this is classified as unmaintained right of way... IE.. not a park.. no bathrooms.. no facilities... <br><br>YES, you must cross the Nooksack River to get to the launch.... YES you should get suited before you cross the river... YES, there is a good chance your kite will get wet on the crossing.... (You don&apos;t have to take all your kites across the river)..... I am 6ft tall.. and did not have to swim... shorter people would be swimming though... it is all of 100ft though... <br><br>What you are rewarded with is epic hatteras like conditions that are unmatched anywhere that I know of in the NW... Strong steady winds.. (the video is in 25mph+) shallow water for literally miles..... and awesome scenery. <br><br>Essentially Driftwood is just the delta of the Nooksack river.. and can be accessed from Locust.. SE winds are much steadier and stronger here than at Locust... <br><br>Best launching conditions are at tides 3 to 7 ft.... although you can launch even at 9ft if you pre-rig your lines on your kite, and have a friend to help you launch. The tail end of this video was shot at 8ft... and the launch area was getting soggy in ankle deep water.... <br><br>The Locust sensor is actually very close to the Driftwood Launch... <br><br>Please Please Please help keep this area open and be respectful of the parking situation and help keep the area clean. <br><br>As for the video... this is my first on my new camera... so let me know what you think..... (I know I can do better.. but this is edit #1) <br><br>Watch here.. <br>http://www.youtube.com/watch?v=9mjcCVdfuhE <br><br>or in Higher Resolution... get it here.. <br>http://www.bellinghamkiteboarding.com/vid/driftwood.wmv<br><br>Directions:<br>1. North on Marine Dr from Locust<br>2. Left on Griffith Ave<br>3. Right on Island View Dr.<br>4. The road dead ends at some concrete barriers. Walk through the barriers, down the trail, wade through the shallow stream, climb over all the logs, swim across the Nooksack river, and setup your kite wherever you can find some dry ground (if there is any).]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.562672,48.77996,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Muir Snowfield</name>
+      <description><![CDATA[Word on the street is its kite-able, seems like a treck though and the wind isn't very steady.]]></description>
+      <styleUrl>#icon-1690-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -121.742935,46.810399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hood Canal Bridge</name>
+      <description><![CDATA[Description:  The Launch is called Shine Tidelands State Park.<br>Conditions:  Check the Hood Canal Bridge wind sensor.  Look for SSE (S or SW are best but more rare) wind and pay attention to tides.  Ebb or Flood currents will either help or hurt your ability to stay up wind.  On a NW wind walk North to the area between land and Hood Head island.<br>Skill Level: Intermediate or advanced if winds are gusty.<br>Directions: Take the first right after you cross the bridge.  Then again take the first right and stay to the left at the fork.<br>Local Contact:  danthetuna works at the bridge.<br>Facilities:  Good parking.  No restrooms or shelter nearby.<br>Shops/Schools: N/A<br>Restrictions: Maintain a minimum of 150 feet from the bridge per WSDOT.<br>Other: The bridge stops the waves on south winds; flat water.  The strip of land attached to Hood Head island stops waves on north winds; flat water]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.634888,47.868459,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hastie Lake Rd.</name>
+      <description><![CDATA[South of what we refer to as West Beach is another county park off of West Beach Rd. called Hastie Lake. The conditions are probably very similar to West Beach. Look for strong W straights forecasts and passing cold fronts.  <br><br>Experienced sailors only. On shore wind, waves with very short period, and rocks everywhere. On low tide there is plenty of beach. On high tide it might be possible to rig in the parking lot and use the boat launch but I don't know if anyone has tried. It could also be fun to downwind to West Beach from here.  When we were there wind wasn't very steady, lots of lulls. I don't know if this is typical or not.<br><br>Directions: Turn West off Highway 20 onto Hastie Lake Road, follow Hastie Lake <br>Road 2.5 miles to road end and the County Park. This access has close <br>neighbors. Please pay special attention and “Respect” private property.<br><br>Amenities: Boat Ramp, Beach Access, Trash can, Parking Vista view.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.746811,48.263998,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane Hill</name>
+      <description><![CDATA[Snowkite spot. A little less the 2.5 hours from Seattle, including the ferry ride. Park at the Hurricane Ridge visitor center, skin or snow-shoe up the road, through the upper parking lot, and along the ridge/trail to the top. The road+trail is about 3 miles, 700ft elevation gain, and took us 2.5 to 3 hours. Once you are at the top, above the tree line, there is a large clearing where you can kite. We did it on a SW 20-30 forecast and it worked great, really almost too much wind. It's probably a good idea to ride the pre-frontal and then get out of there. If you're there when the front hits, and it's snowing, you won't be able to see at all, which is what happened to us. <br><br>NWAC Wind/Snow Sensor (http://www.nwac.us/~nwac/products/OSOHUR) <br>NWAC Weather Forecast (http://www.nwac.us/products/SABNW) <br>NOAA Point forecast (http://forecast.weather.gov/MapClick.php?lat=47.98877279143729&lon=-123.52958679199219&site=sew&smap=1&marine=0&unit=0&lg=en) <br>NWAC Avalanche Forecast (http://www.nwac.us/products/SABSEA) <br>Hurricane Ridge visitor center web cam (http://www.nps.gov/archive/olym/cams/hurricane/hurricaneridgecam.htm)]]></description>
+      <styleUrl>#icon-123</styleUrl>
+      <Point>
+        <coordinates>
+          -123.486328,47.805776,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sandy Point Arm</name>
+      <description><![CDATA[Park here and walk along path unti lthere is a break in the pilings, walk out there and to the patch of grass rig and ride.  Its offshore on a NE but with really shallow water.<br><br>Ride southeast and there are lots of little islands- hatteras style.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.679069,48.803076,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bay View State Park</name>
+      <description>Tide height equates to the height of the water in the bay.  1ft Tide means 1 ft of water to ride in.  Typically a NW wind spot.  Hunter and Dogfish have stronger winds.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.480564,48.487714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Westport</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUb60K4U5H6BvRcjdsgFb997-rBwxeOSiCFq3pwo1sVbX0OVJyVfpkfsxDqcA8QIJJtSLj-d9ETFX6mkDfl5JRyr1W_mmYqIkhMfEy-Arb86zYLPzzD6uH3igJKtyOsXnfNlpKOEuwiSn4ToTAGuBiZqZ7L5ukk423N_hXrv0keYAn2P2Y5ARLhC_EZBFBaUEM2g0_m?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Westport is great for NW winds and blows side/onshore with steady wind. Beginner Friendly. Park at the Westhaven State Park, walk over the dune, and then setup/launch here.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUb60K4U5H6BvRcjdsgFb997-rBwxeOSiCFq3pwo1sVbX0OVJyVfpkfsxDqcA8QIJJtSLj-d9ETFX6mkDfl5JRyr1W_mmYqIkhMfEy-Arb86zYLPzzD6uH3igJKtyOsXnfNlpKOEuwiSn4ToTAGuBiZqZ7L5ukk423N_hXrv0keYAn2P2Y5ARLhC_EZBFBaUEM2g0_m?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -124.130595,46.902416,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Half Moon Bay</name>
+      <description>Park here for access  to Half Moon Bay</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -124.121722,46.9046074,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Penn Cove</name>
+      <description><![CDATA[Works on S, SE, E.<br>Gusty but fun.<br><br>Rode here once when I had to rent a wet-suit in Oak Harbour and I didn't want to drive all the way back to Double Bluff.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.730138,48.231977,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Penn Cove Trail</name>
+      <description>Walk this trail from the parking area off 20 to the Rigging area marked.</description>
+      <styleUrl>#line-0000FF-5000</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.730364,48.232177,0
+          -122.731919,48.233056,0
+          -122.731909,48.234007,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Tokeland, WA</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -123.981835,46.706486,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sunnyside Beach Park</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.589397,47.179154,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tsawwassen Ferry Terminal</name>
+      <description><![CDATA[Will work in any breeze with W; NW produces flat water and SW creates small ride-able waves.<br>It is possible to ride on the north side of the causeway but its shallow and muddy.  <br>The beach is short and covered in logs so launching can be tricky.<br>There is a wind sensor at the Ferry Terminal which updates hourly.<br><br>Map (http://maps.google.ca/maps?f=d&source=s_d&saddr=blaine,+wa&daddr=BC-17+S+to:49.025839,-123.101828&geocode=%3BFeBO7AIdOBGq-A%3B&hl=en&mra=ls&via=1&sll=49.025544,-123.100562&sspn=0.010384,0.017316&ie=UTF8&ll=49.043269,-122.915726&spn=0.350618,0.617294&z=11")<br><br>You can check http://windonthewater.com/ and look at the Sands Head sensor (and maybe the Point Roberts one as well). You will want them to be NW with 15+ mph.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.103266,49.024165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Belfair State Park</name>
+      <description><![CDATA[Good for S,SW winds and maybe NE. The Shelton weather station on WOTW seems to be the closest weather station.<br><br>Forecasting:<br>http://pskite.org/viewtopic.php?f=3&t=9914&start=10#p74762<br>http://pskite.org/viewtopic.php?f=3&t=9914&start=10#p74765<br>Forum comments on Belfair<br><br>1.The wind can be kinda flukey in the rigging/launching area. <br>2.Watch out for oyster beds at low tide. there are some pretty nasty oyster beds out there just under the surface of what looks like a safe spot. If you are body dragging there it could be nasty. <br>3. Booties are a must.<br>4.It's a great alternative to Purdy on a high tide.<br>5.Nice grass rigging area and safe launch site.<br><br>http://www.stateparks.com/belfair.html]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.875607,47.429112,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iverson Rd</name>
+      <description><![CDATA[Like flat, shallow water, no ferry lines and few kiters? Then Iverson is your spot. Iverson works only on SEasterlies, once it goes SSW or SW it shuts down. Make sure to check the tides. If the tide is higher than 10 feet, there will be almost no beach with floating logs near shore.  On a swift incoming tide, you will not be able to stay upwind.  On a swift outgoing tide, you'll get Gorge-like conveyor conditions.  If the Livingston sensor blows >10 then Iverson is rideable.<br> <br>Camano Island, WA 98282]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.442627,48.215523,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>N Snakelum Point Rd</name>
+      <description>Coupeville, WA 98239</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.617035,48.291417,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keechelus Gold Creek Parking</name>
+      <styleUrl>#icon-93-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.385515,47.392902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>From Gold Creek to Launch Spot</name>
+      <description>is where you park your car and the walk under the two overpasses. (Take your time and use caution when walking under the overpasses as one could easily twist an ankle or trip and fall... not too bad, just saying)</description>
+      <styleUrl>#line-CC33CC-5000</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.386,47.39242,0
+          -121.38416,47.39211,0
+          -121.38294,47.39175,0
+          -121.38203,47.39131,0
+          -121.383648,47.389764,0
+          -121.38382,47.387716,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Keechelus Lake Snowkiting</name>
+      <description><![CDATA[Where to park and how to get there:<br>http://pskite.org/viewtopic.php?f=3&t=6310&start=10#p43933 <br> <br>The lake does freeze over some years but be wary as I've seen many people get dunked on what they thought was solid.<br> <br><br> <br><br> <br>More info:<br><br>No permit necessary, you can park at the spot, they plow the road now. :)<br> <br>Take the Hayak exit, 1st left toward the Hayak lodge/Keechelus trailhead. Follow that road as it curves to the right. When it ends in a parking lot you're there. Walk east a couple hundred yard onto the snow to the "launch site."<br><br>If you park at the snow park, yes it's required to have a permit. They sell them on the spot, busy days (weekends), I'd just get a yearly permit at REI or any ranger station. It would be nice to use snow shoes or skin up to get in if you have them, post holing is really difficult and robs your energy, it's about 1/2 mile that seems to take forever. Follow the cross country trail just along the power lines to the south, as you said. When you see the bathrooms, hang a left and walk down the lower trail which will take you to the boat launch road. You can also keep heading south another 1/4 mile down the xcountry trail and hike down to the lake at that point. The sweet spot to rig is to the south of the boat launch, up on the hill with the trees. There is a flat spot with little rotor but the closer you get to the tree line it gets swirly and gusty. Bring Gatorade and sugar, you'll need it! Check the wind at the ranger station before you go, it has to be at least 10 to 20 out of the east. Westerlies don't work at the site.<br> <br>Sensor (http://www.nwac.us/weatherdata/snoqualmiepass/now/)]]></description>
+      <styleUrl>#icon-1690-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -121.383283,47.387527,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>South Indian Island County Park </name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4AWSfszjWwy3EOLUnCUsv9g__Ty1VBRQAUHhEHJz7-PV_3xPxYnL8o5FLiy7I6rshzpaOIGfgaN04Ff2knKu-oW8zfTS8Qz_d2PZjCFJdTgLp8Bsgv39p9ysmq_XqpZA" height="200" width="auto" /><br><br>by PistolPete » Thu Dec 23, 2010 10:57 pm <br><br>Should add South Indian Island Park site to Kite Beaches <br>http://mw2.google.com/mw-panoramio/photos/medium/34372700.jpg<br>There are four named beached within South Indian Island County Park, Lagoon Beach, Lagoon Beach North, Lagoon Beach South and Isthmus Beach. Jefferson County Parks has singage along Flagler Road for access to these four beaches... http://wdfw.wa.gov/fishing/shellfish/beaches/beach.php?BIDN=250410]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v4AWSfszjWwy3EOLUnCUsv9g__Ty1VBRQAUHhEHJz7-PV_3xPxYnL8o5FLiy7I6rshzpaOIGfgaN04Ff2knKu-oW8zfTS8Qz_d2PZjCFJdTgLp8Bsgv39p9ysmq_XqpZA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.704325,48.017688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chambers Bay</name>
+      <description><![CDATA[North wind is super stable and builds nicely as you ride upwind (north) towards the Narrows. <br>Southerly winds are holey and don't work nearly as well.<br><br>Walk north a few blocks from the pedestrian bridge for the best launch.<br><br>It's a bit of a walk from the parking but there are some nice pilings on the beach for leash launching.<br>The water is clear and clean.<br><br>Use the sunset beach sensor for current conditions.  Keep in mind it gets stronger the further out and further upwind you ride.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.583035,47.200932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cannon Beach, OR</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4xicmE7HZDckkLMauvd8H61RV-IQRjh5GL0V2-y322IX5UDj97BVB658Au_tO0hONb7kUDNgQxwElqo7UfHux0pTB29vjEuJuKPNtQRRxD6Xcs5_xleN-VwQ6WQhOhoJuSSvolyYgyGf0vnbkMojTMsd6Qcl5g7x0" height="200" width="auto" /><br><br>USA]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v4xicmE7HZDckkLMauvd8H61RV-IQRjh5GL0V2-y322IX5UDj97BVB658Au_tO0hONb7kUDNgQxwElqo7UfHux0pTB29vjEuJuKPNtQRRxD6Xcs5_xleN-VwQ6WQhOhoJuSSvolyYgyGf0vnbkMojTMsd6Qcl5g7x0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -123.961527,45.891774,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pigeon Beach</name>
+      <description><![CDATA[http://www.portofeverett.com/home/index.asp?page=63<br>Park on the street and take an easy .6 mile walk to the beach. A skateboard or bike will get you to the launch quicker.<br><br>SW - N would work. With North you may experience a wind shadow from the Port and Aircraft carrier, but, I think you could work around it. There seemed to be a bit of a dead zone close to the south end of the Port of Everett dock.<br><br>Avoid kiting when the tide is >+4 (guesstimate) for smoother riding conditions.<br><br>Beach Notes.<br>1. The pilings in the water are not a problem, but, will intimidate a beginner.<br>2. I spoke with a Port of Everette employee. He suggested we stay south of the Port of Everette dock to keep the Port and navy happy]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.230067,47.971522,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Luther Burbank Park</name>
+      <description><![CDATA[Works on a strong NW with a big kite. 520 must read 18 or higher for it to be rideable. You can fly your kite when 520 reads 12 N, so maybe a race board would work.  Immediately after launch ride starboard to get better winds. Very advanced launch site with lots of trees and people downwind. Shallow water for 100 ft out = good for un-hooked. Must self-land and wrap up in water to come in.  Don't ride here unless you are extremely confident in you self-launching and light wind skills. If you end up downwind of the launch here there's no return  (except for trespassing on a multi-million dollar property).]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.227862,47.595145,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rowena</name>
+      <description>Good launch and land for wind-surfing gear. State park with bathrooms, pay-to-park. Launch and Landing areas are rocky and un-even, plan to have a friend for both launch and landi</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.2688812,45.676014,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hood River - Event Site</name>
+      <description>Primary Launch in Hood River. Read the internet for more details and talk to the locals when you get here.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.511493,45.716188,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hood River - The Spit</name>
+      <description>Secondary Launch in Hood River. Read the internet and talk to the locals when you get here</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.508746,45.71454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hood River - Marina</name>
+      <description>Tertiary Launch in Hood River. Read the internet and talk to the locals when you get here.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.505399,45.715079,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>StOak bay</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7oEWW3mL4mg_lA3UI6rMf73zp_1hpJdKR15N7jCuar1ObMGZniJDv1N27RoAjuXPdSx0Sc91ITyYisNwKFvDiwuJoxUlMjmHNnpuPOOw" height="200" width="auto" /><br><br>I'm not sure if its always like this out there but the water was pretty nice butter close to the shoreline and out in front of the channel mouth the tide was ebbing so the waves were setting up pretty nicely too.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v7oEWW3mL4mg_lA3UI6rMf73zp_1hpJdKR15N7jCuar1ObMGZniJDv1N27RoAjuXPdSx0Sc91ITyYisNwKFvDiwuJoxUlMjmHNnpuPOOw</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.7214,48.024616,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mosier</name>
+      <description><![CDATA[Cool little spot that I found (pls. note, I am not the first to find this spot, this spot just wasn't on the map). Nice sheltered area to rig and store your stuff and lay out your lines. Cool island just west of the launch that was pretty dope as well. <br>I am told weekends get VERY busy with windyboarders hogging all the space and getting angry, but during the week if you don't feel like riding the event site, it was pretty dope. You have to pay 5 dolla to park in da parking lot.<br>Sweet spot.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -121.404274,45.687011,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kalama</name>
+      <description><![CDATA[For the uninformed and the interested, Kalama is a small town about 35-40 minutes drive up I-5 from Portland (30 minutes from the first I-5 exit in Vancouver). Obviously if you are on the Portland side of the river you would have a rough time getting through to Vancouver during rush hour, but those of us on the Washington side or Portlanders close to I-205 could get up there in no time at all and there is essentially never any traffic. <br><br>Today: <br>I got on the water about 5:30 PM and rode until about 7:30; the wind was still strong but I was starving and decided to head in. I went out on my 14 and TT but was greatly overpowered with full depower on the kite - when I went out into the shipping channel where the wind is stronger I would get lofted 50% of the time when a gust came through. I probably should have put up my 9m to be honest, but I'm not used to being able to ride a smaller kite at Kalama. For reference, I weigh ~195lbs. <br><br><br>Wind Prediction: <br>Wind is not the easiest to predict ahead of time (for me), but the indicators are a prediction along the lines of "Northwest wind 6 to 13 mph" for Kelso or Kalama on weather.gov, and nice sunny day in Portland. It's very similar to Sauvies in the days that it goes off, but it might actually go off more often (if using 12-14m kites). On 12-14m sauvies days I'm guessing it's 9-10-11m kite size at Kalama - I can't say for sure because I've never gone to Sauvie's on a weekday. Today there were white caps throughout the river, starting around 2:00 pm. <br><br>Today the tide had just finished going out, (low tide in Longview was at 5:15pm) and was heading back in, so there wasn't an extra boost from the tide going out with the current. See the windonthewater.com screenshot for the wind sensor readings today. Note that the sensor there is not right on the river and that the wind gets very fluky the farther you go from shore. River wind speed is closer to the gusts on the sensor in the screenshot. <br><br>I would probably be better at predicting wind at Kalama if not for the fact that I work right next to the river and there are windsocks and flags right outside my office. And I can see the park and river area from a 50ft vantage point. If you are interested in heading out there M-F feel free to shoot me a PM and ask for my take on the wind. <br><br>Wind quality: The more North the wind is the more consistent and less gusty it is. Today was pretty good, it gets more gusty towards shore and smooths out and strengthens (3-4 mph probably) as you go into the shipping channel, much like the wind at Jones in nuclear alley. The wind is also not as onshore as at Jones, and is pretty close to parallel with the shoreline. This does make going upwind in either direction (relative to the shoreline) very easy, however. <br><br>Water quality: <br>The water was surprisingly less choppy than I'm used to seeing at Jones and HR. I don't know why that is, it could be that the big island to the west of the launch breaks the wind near the surface of the water enough to prevent the super-chop that you see at Jones on the Oregon side of the river. The water wasn't glass by any means but it was... not bad. You can always chase the large ships going towards Portland and ride in the flat wake area. <br><br>The current is strong, I'd say its similar to Hood River from watching things float by. The current is still very prevalent right next to shore, though, so it doesn't have the easy board retrieval that Jones has when close to the Oregon shore. <br><br>Launch/landing site: See the pics attached for some actual photos of the place. There are a few ways you could approach this launch, but the way I do it and the way I've seen a few other people do it is by launching off the grass between the two walking paths. Wait for passersby, obviously, as I'd prefer to keep this site a viable kite location. If you can't self launch a kite or have poor kite control I would not try kiting here without a friend to help launch and land. On the other hand, there is a con]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.8529393,46.0128662,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Union</name>
+      <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7UmYehtVk7kT39a-S6MBCStuvaEv3dTHbID01Y8u3pm_vtJudtmAJp0EYOYebQkq0aadqdjJW4ALuOuQAYQQEm4Ei0c_xTptmRS1KxqK22BoVIu3FiWimBH0AuFtkZBn3xyuIMeWpJx24Gx1BscZgRCwdrNN1CX0ck0w" height="200" width="auto" /><br><br>Seattle, WA]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value>https://lh3.googleusercontent.com/umsh/AN6v0v7UmYehtVk7kT39a-S6MBCStuvaEv3dTHbID01Y8u3pm_vtJudtmAJp0EYOYebQkq0aadqdjJW4ALuOuQAYQQEm4Ei0c_xTptmRS1KxqK22BoVIu3FiWimBH0AuFtkZBn3xyuIMeWpJx24Gx1BscZgRCwdrNN1CX0ck0w</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.335757,47.641586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Floras Lake Windsurfing & Kiteboarding]]></name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -124.504323,42.901024,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bounday Bay 3rd Ave</name>
+      <description><![CDATA[Good with SE or East wind. Generally best in the fall, winter and spring. Not much wind in the summer. Can be a long walk to the water at tides below 5 feet.<br>I have also heard there are some parking issues with local residents and the kite crew.  It is a tight area for parking and I think the locals are getting cranky.  Talk to a local to get the parking scoop.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.035846,49.008037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jericho, Spanish Banks </name>
+      <description><![CDATA[Good with W or NW wind.<br>Launch at the Spanish Banks West concession stand with NW wind<br>on East wind, launch at the foot of Tolmie Street.<br>No kiteboarding allowed here during lifeguard season (june-aug), but wind is not great then anyway (go to the spit)<br>Webcam and wind sensor:<br><br><br><br>http://www.jericho.ca/webcam/webcam.html<br>http://jsca.bc.ca/aboutus/weather/]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.216949,49.277101,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Squamish Spit </name>
+      <description><![CDATA[Good all summer when hot weather causes Southerly inflow wind. The sandbar shows at tides below 5 feet an provides plenty of shallow water.<br>Costs $15 bucks to kite per day, but they provide jet ski rescue so you can try unhooked tricks all kinds!<br>Live wind: http://www.squamishwindsports.com/wind/]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.178024,49.684957,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crescent Beach</name>
+      <description><![CDATA[Good with SW, W, and NW wind.<br>Best when the tide above 6 feet, or you must walk a long way to get to water.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.886747,49.057424,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>White Rock</name>
+      <description>Good on SW and S winds</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.794876,49.015131,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LaPush</name>
+      <description>Nick and I had dialed sessions here in the summer on a NW.  sodialed.  It is packed with surfers who probably hate us and everything else (as they do).  When the wind picked up, however, the surfers cleared out and it was sweet.  I would say no more that 4 kiters total at this place as it was relatively tight and the wind was a bit flukey near those massive sea stacks, but the waves were clean and the beer was tasty</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -124.634356,47.904936,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>???</name>
+      <description>Anyone ride here?</description>
+      <styleUrl>#icon-181</styleUrl>
+      <Point>
+        <coordinates>
+          -122.778568,48.985343,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Point</name>
+      <description><![CDATA[Parking issueshigh tide issues<br>dangerous winds at times<br>This is a highly advanced spot and should be treated with respect.<br>if you can deal with all the issues, it is a pretty cool spot, but there are probably better spots that you should go to.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.433701,47.661225,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sunlight Beach</name>
+      <description><![CDATA[Skill level: Advanced/Expert Launch<br>Best wind direction: SW, S, SE<br>Warnings:<br>Various obstacles. There is lots of wood on the beach, so be very careful as this is an onshore condition in front of the parking. Even at the launch point down the beach, there is a lot of log and wood debris to avoid. If you go in the lagoon, make sure you look for submerged logs or wood and this varies depending on the year so use caution. There is less room on this side at the beach and for parking, so use the DB park if this site is full or becomes congested.<br><br><br>Parking: <br>This is a short sandy road public access between private property. Park to the west side of the access lane and be efficient. There is limited parking and the opposite side of the street can be used but only in the access lane dimensions. This has been used for years by a small number of windsurfers, some of whom do not appreciate kiters.<br><br><br>Beach: <br>The beach is very small at tides over 8 feet. The launch is an 800 yard walk down the beach to the sandy and log strewn point adjacent to deer lagoon. There is no allowed launching on private property which means in front of the houses at the parking access. The property owners have rights to the mean high tide level and there is signage notifying of private beach on both sides of the access.<br><br><br>Conditions: <br>This mirrors the Double Bluff Park conditions with a slightly better wind at SW conditions. The waves are better at DB park when wind is S, SE or the tide out below 8 feet. At low tide, there is much more exposed beach than DB park, but the waves are better at DB park side. At high tide, Deer Lagoon is ride-able for unhooked tricks. It can get pretty gusty in the lagoon towards the west end because of the houses blocking the wind.<br><br><br>Water: <br>Varies from chop to small waves over towards the west point to flat water in the lagoon. On the outside, there are some nice waves which are comparable to DB park. Once off the beach, there is limited safe exit at high tides because of lack of beach and logs. The incoming tide makes it very difficult to stay upwind at the launch and you can get swept into the lagoon.<br><br><br>This is a visibly high impact area that the neighbors are aware of. We must be respectful of their property rights. The neighbors have recently made the Sheriff aware of people parking illegally on the road.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.481594,47.990726,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Josephine Young Memorial Park</name>
+      <description>Flatwater at the right tide, lots of beach.  I rode it on a Northerly but should be good on a southerly as well?</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -124.019766,44.917319,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>North Beach</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVb6oHPC-7sz2biLm-LfBeaFToUanWdv5wgEq0mbwvhiNWQOS1RMzaXHO8t-ALeCQ54RO9pjJ7fzKg6AkOowj-rMadGhQ4wGP67w0fud18KWZ1xR2xAHuzffLxXlGB5RfUH5sJ1GItTsjiezg5ansxiV1DgUDG-KZqJcga9Mx7eCMhr1cEBLMYjNJl2Plv4_yczQoE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Experienced Kiters Only! <br><br>Works best on W or NW winds. Launch in the grass field east of the parking lot. Wind is very flukey in this field. (think mags flukey) bee line it to the water for smoother winds. Do not attempt to ride here if the tide is flooding in strong. Watch for bull kelp later in the summer. Beautiful spot, occasionally has a surfable break. Wind tends to lighten up east of the launch so try to stay west of the parking lot (upwind) in the event the wind drops.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVb6oHPC-7sz2biLm-LfBeaFToUanWdv5wgEq0mbwvhiNWQOS1RMzaXHO8t-ALeCQ54RO9pjJ7fzKg6AkOowj-rMadGhQ4wGP67w0fud18KWZ1xR2xAHuzffLxXlGB5RfUH5sJ1GItTsjiezg5ansxiV1DgUDG-KZqJcga9Mx7eCMhr1cEBLMYjNJl2Plv4_yczQoE?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.781599,48.14226,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Newcastle Beach Park</name>
+      <description><![CDATA[This is a good, advanced kitesurfing spot for Eastsiders. Newcastle has sick flat water upwind and can be really nice on a SSW. However, THERE ARE NO GOOD DOWNWIND OUTS. If you cannot ride upwind and stay well upwind of the dock immediately you must abort.  Also Newcastle can be have big lulls so it is suggested you ride one kite size bigger than you normally would. If you work on the eastside this beach is awesome<br><br>Newcastle is best on SSW and SW winds when I-90 & SeaTac sensors are blowing 16+ and the Renton airport is 12+. It is dangerous and un-kiteable on SE winds . The best days and steadiest here are typically during a strong convergence. Often you can ride here when J-bay has shut down. <br><br> A couple notes about the launch: 1) Expect to self launch and self land here. This is typically done by drift launching from the beach and landing your kite behind the trees in the grass 2) Note: The wind at the launch is very turbulent as it is downwind of two buildings,so be careful and get your kite over the water. 3) The grass is really nice to roll your kite on :) 4) The beach is closed to kiters from June through early Sept.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.190778,47.5649516,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Best area to ride</name>
+      <styleUrl>#poly-0000FF-3000-115-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -122.199794,47.563684,0
+              -122.190288,47.564061,0
+              -122.19166,47.565357,0
+              -122.192314,47.565407,0
+              -122.199794,47.563684,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Ocean Shores, North Jetty</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -124.1754416,46.9293157,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dallas Road</name>
+      <description><![CDATA[intermediate/advanced<br>westerlies]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.360951,48.407141,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Gordon's]]></name>
+      <description><![CDATA[inter/adv<br>westerlies]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.852868,48.374867,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Edmonds</name>
+      <description>Works on SW and NW, but can be very flukey.  Advanced launch with very little downwind options.N winds have lots of beach goers and the winds tend to stay offshore. Watch out for underwater pipes and concrete blocks.  Also a creasote piling just off the beach tends to eat kites.  </description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.3942184,47.8048393,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Summerland (private beach)</name>
+      <description><![CDATA[Launch skill: Intermediate<br>Riding skill: beginner<br>Special consideration: This is a private beach with no public access.<br>Wind directions: works on thermal northerlies and also on SW<br>Tide requirements: tide needs to be less than 9ft. to launch<br>Season: all year<br>Type: warm shallow flat water in the summer with the same wind as Jetty typically arriving around 11-1.  Wintertime has storm wind waves from the SW.  ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.3187732,48.1679602,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Smeiahmoo Park</name>
+      <description><![CDATA[ikitesurf wind sensor appears to be at the end of the spit, we launched at Semiahmoo Park - see link below. Lots of parking spots, grassy launch just enough for launching one kite at a time on the bay side. We checked out the other side as well, but wind direction was offshore. Unless you wanted to kite to Canada an be picked up by border patrol, not a good idea. You can kite upwind to the marina, but it's smelly from the fishing boats, that being said there is flat flat water right where the marina pier comes out. Wind was gusty since it came from inland and was very strong at times, more wind in general further out in the bay. Wind hits the bluff downwind so stay away from there as it likely gets lighter the closer you get. Some solid updrafts in the right zone generated by the bluff. Emergency exits are limited, if you go out too far and have equipment failure you'll make it to shore, but likely with lots of trees and rocks, etc. Overall, quite a scenic spot with Mt. Baker in the background. According to locals, very rare NE wind there. Hope that helps - https://goo.gl/maps/zDRcsu7uULw]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.7900696,48.9784988,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Damon Point</name>
+      <description><![CDATA[Skill level: Beginner<br>Best wind direction: NE, E, ESE<br>Great for winter kiting on NE, E and ESE winds on the inside of the bay at the southeast part of the Ocean Shores peninsula. It’s a beginner friendly spot on mid to low tide with long sandy beach though be careful with on-shore winds. High tide increases launching/landing hazards: due to no beach watch for rocks, logs, bushes & proximity of the rock jetty. Most of the time it’s a smooth wind and fairly flat water kiting. If the wind turns too southerly it gets holey and gusty on the inside. Walk over to the south shore of the peninsula for kiting some waves on southerly winds. (Waves aren’t for beginners though.)<br><br><br>It blows primarily early in the morning and dies off early afternoon though on occasion it’s windy all day long. If Tatoosh Is and Columbia River Bar sensors on iKitesurf show easterly in high teens or better and Hoquiam sensor registers east in low teens you are likely to get 20+ mph wind at Damon. Grays Harbor Shore Conditions Information Line (360 268 1444) would give you most accurate update, but unfortunately tide and weather information is currently unavailable. All-n-all it’s a fun place with a bathroom at the parking lot to change out of the wind. <br><br><br>The campground right there has a boat launch and easy walk to the kite launch areas. Great for RV with hookups, not very nice for tenting. It rarely fills up except summer holiday weekends. Almost deserted any time but summer. <br><br><br>Facilities<br>The bathroom with showers at the site is NOT a public restroom. It is for the private campground and is maintained by the owner. However, we are on good terms with the owner (his name is Tom). Watching kiteboarders is great entertainment for his guests. If you do need/want to use the restroom, please hose off sand with the outside hose at the office building. Introduce yourself to Tom. Always be courteous. Frequent DP riders have asked that we do a little more and drop a few $$ at the office drop box. <br><br><br>Driving Directions from Seattle (Approximate driving time: 2.5 hours) <br><br><br>1. Head South on I-5 to Olympia <br>2. At Olympia take Exit 104 (towards Aberdeen & Ocean beaches) Hwy. 101 North <br>3. Stay on main highway. It turns into Hwy. 8 West. Then, at Elma, it changes into Hwy. 12 West <br>4. Upon reaching Aberdeen, follow the signs that take you to Hwy. 101 North - to Hoquiam and Ocean beaches. DO NOT TAKE THE WESTPORT TURN <br>5. You should be in the left lane as you cross the Hoquiam bridge. Bear right and then turn left at the second traffic light onto Hwy. 109 (Ocean Shores and Ocean beaches) <br>6. After approximately 18 miles, turn left onto Hwy. 115 (Oyehut/Ocean Shores) <br>7. Highway 115 turns into Damon Rd. as you curve to the right. Turn left into Ocean Shores – through the stone gates. <br>8. Once you hit town stay on Point Brown Ave until you cross Ocean Shores and approach south end of the peninsula. <br>9. Point Brown Ave SE will curve right and will become Discovery Ave SE. <br>10. Go for approximately a quarter mile and as Discovery Ave curves right again (heading west) make a left turn onto a short road that will bring you to a parking lot. ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -124.1238785,46.9447544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Magnuson South
+</name>
+      <description><![CDATA[This is the best launch for accessing the lee side of the 520 bridge on southerlies.<br><br>This is an alley with public access to the water. There is room to set up one or two kites and running your lines up the alley. The first kiter launching can swim out while another person holds the kite. When the lines go tight, just let the kite go. It will swing out and the kiter can water launch. the last kiter will need to do a swimming drift launch. Practice this launch technique elsewhere first. You only get one chance. When returning to the launch you will most likely have to drop your kite and self-rescue in. There is a club a bit further north where you can exit and walk a circuitous route back to the launch.<br><br>This public space is not well maintained and can get overgrown, so check it out first. We have cut back vegetation and berry branches in the pump area. It would be prudent to just take a look at the set up before planning a session.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2757506,47.6505948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cascade Lake Pine Lakes Ranch</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWlO6KbgjsvEdNtGWDlwJ_Z10vWWyDobZRP_CwTkQ-t_EsL0iJpIG7cT5pTGpapN_Yz4A2iYXVIMyyVo6g9vvqME12FUtOSAhZUCskMfJjE063-iY4L5ZNjD_XLl0BDi2RLkmdiaJ_iLniA1DBlXxe1hGLi_T2z0FhCfZB0wf2yFawAqAqMrgajttxnLEzoi68DlUWv?authuser=0&fife=s16383" height="200" width="auto" /><br><br>This spot is fun but can be short lived only about an hour to two of wind Works on a N, NW, W.  West is a little bit choppy up and down but still works.  Your NW to N will be the most consistent wind. I've ridden here in August several times but couldn't say what time of day is best.  One day with overcast solid 15mph in the morning.  The next bright sunny day with 12mph coming from the west.    The best wind is at the north of the lake but this is just a fun wide open spot fewer boats usually.  <br><br>This is technically a boat launch /trailer parking location.  So use the southern end of the launch area to stay out of the way. <br><br>Launching from the boat launch puts you right into the deep water which is where I like to take off from but if there are people loading/unloading boats right off the shore works well.  <br><br>Conditions the sand is large granules but walkable for the tender foot you might want booties.   <br><br>Water is warmer but you might want at least a 3mil suit late summer and early summer will want something more.  If the wind feels like its dropping <br><br>S,SW could work here but you need some serious wind 20+ to deal with the kind of luls and holes coming off the bluff to the south.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAV5Z4Br51UBrnWtDKSEmed-Igh5g2zA9UDj8t8fDejSlqLxPJsWwFAmKbYc0DlUuKfmtBJzC_uDREr9nPSXwWOrlngP9s0S7p1Xqh8jPPcA-2Q-6DJpZ-p1P4Wy2usPfMTjwTI58_bzJ3epPjOB4M1SF20_KICS6nl8BAIg2WP65kt3u3fiiBwjTkz2IPr5TGDczqJ_?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWlO6KbgjsvEdNtGWDlwJ_Z10vWWyDobZRP_CwTkQ-t_EsL0iJpIG7cT5pTGpapN_Yz4A2iYXVIMyyVo6g9vvqME12FUtOSAhZUCskMfJjE063-iY4L5ZNjD_XLl0BDi2RLkmdiaJ_iLniA1DBlXxe1hGLi_T2z0FhCfZB0wf2yFawAqAqMrgajttxnLEzoi68DlUWv?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAV5Z4Br51UBrnWtDKSEmed-Igh5g2zA9UDj8t8fDejSlqLxPJsWwFAmKbYc0DlUuKfmtBJzC_uDREr9nPSXwWOrlngP9s0S7p1Xqh8jPPcA-2Q-6DJpZ-p1P4Wy2usPfMTjwTI58_bzJ3epPjOB4M1SF20_KICS6nl8BAIg2WP65kt3u3fiiBwjTkz2IPr5TGDczqJ_?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -116.0643607,44.5703043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>eagle creek</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVPDyqn4R7nxzdSRUiniv95LInadgzp8zE60WPVz7jOD4mhYJp4ilksN0WM3bNIizrckdefnSgj9lgLS_F78iJyZAjsbGnizCiODSSkfvQHy6ynd52vUSWH_5qNZupEUdDTA9fRWR4Up617q2SfETOXpLXmx-m3gu5tv_wHpBOiOTTrMfSwNvozw4fXHwBegU9Nf30?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Great launch on pebble beach on all but highest tides.  Works with southerlies. ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVPDyqn4R7nxzdSRUiniv95LInadgzp8zE60WPVz7jOD4mhYJp4ilksN0WM3bNIizrckdefnSgj9lgLS_F78iJyZAjsbGnizCiODSSkfvQHy6ynd52vUSWH_5qNZupEUdDTA9fRWR4Up617q2SfETOXpLXmx-m3gu5tv_wHpBOiOTTrMfSwNvozw4fXHwBegU9Nf30?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -123.0781603,47.4844679,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Three Crabs</name>
+      <description>Sandy beach.  Shallow water to the west in front of river.  Works with north to east winds.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.1220627,48.1521153,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point No Point</name>
+      <description>There are two kite spots here.  On a north wind there is a grassy area to the west of the lighthouse to launch from.  On a SE the beach south of the lighthouse is the launch so a high tide is a no go.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.526741,47.9115097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>John Wayne Marina</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVGUYTDhGgG1gIh4mRYSuy4N8BEpYDkottsIM35JlvmUCjtQ_91JZM-OiNAg2TPoaYmbPC_9--oHDljVGC1VFhaUDQM2pgugjgPqnR1SHEyHbbrU5405IillOZr8ijU9YwxRMBVhU3mwqgWk5yW05XD84OUN2S1q0YNn9ITmrb4vxtIOy3toiikcvLu4DOl-U_tBvo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>SE facing gravel beach is the launch area so it's difficult at high tide.  Sequim Bay often gets the SE while areas to the east have nothing.  ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVGUYTDhGgG1gIh4mRYSuy4N8BEpYDkottsIM35JlvmUCjtQ_91JZM-OiNAg2TPoaYmbPC_9--oHDljVGC1VFhaUDQM2pgugjgPqnR1SHEyHbbrU5405IillOZr8ijU9YwxRMBVhU3mwqgWk5yW05XD84OUN2S1q0YNn9ITmrb4vxtIOy3toiikcvLu4DOl-U_tBvo?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -123.0410385,48.0612168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jamestown Beach</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXCvpUJgrnf8Z0lIqkGkcLlCu5LfhwfwYlFS5zT6NMNkqUohbAQMJ3VzSGqRKp0uKtDKd_kqQ3FvxCR_M9QKv6DKOl1c5ESa4mtiCCE3G03UV5-e-i4B1GJNAt08NzF7r6q9tMoyxE5NhigBH2FjraaR5NKiYmw107oHDXUsWMisKncvL1VaArg8q_HaJHn3GWTnlg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Lovely sand beach.  There is a very small parking area at the end of Wilcox Lane.  This place is great at lower tides.  Many sandbars extending out from the beach about 100 yards or better to the NW make for waves and flatwater.  Look for SE to E winds as well as northerlies.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXCvpUJgrnf8Z0lIqkGkcLlCu5LfhwfwYlFS5zT6NMNkqUohbAQMJ3VzSGqRKp0uKtDKd_kqQ3FvxCR_M9QKv6DKOl1c5ESa4mtiCCE3G03UV5-e-i4B1GJNAt08NzF7r6q9tMoyxE5NhigBH2FjraaR5NKiYmw107oHDXUsWMisKncvL1VaArg8q_HaJHn3GWTnlg?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -123.0802782,48.1253319,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>seven sisters</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWnpj2bfVg_smu310MOM4lvuqfrbDxxaAcqcOz-D4UPuU7OsFI5yP8g2q0-KjYF4Y7YYxdNyfwxljxXmxxRD4ONZ5vmB18j80vMhaURXF067zqdBOw3OPnTuBrpJgsnSS5h7xmUpD8xBJTOnjYwW0tnNx1leUF--nLpoJRuBjYwBfct6S8AJgCW9bOEshvwNqO5lqs?authuser=0&fife=s16383" height="200" width="auto" /><br><br>To get to this spot take the first right after the hood canal bridge then turn right on seven sisters road and park at the end near the beach.  Walk about 200 yards to the north as the beach turns from rocks to sand and there are a few good tie offs to launch from.  South wind spot with no current.  Might be a great flat water spot during north winds as well.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWnpj2bfVg_smu310MOM4lvuqfrbDxxaAcqcOz-D4UPuU7OsFI5yP8g2q0-KjYF4Y7YYxdNyfwxljxXmxxRD4ONZ5vmB18j80vMhaURXF067zqdBOw3OPnTuBrpJgsnSS5h7xmUpD8xBJTOnjYwW0tnNx1leUF--nLpoJRuBjYwBfct6S8AJgCW9bOEshvwNqO5lqs?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.6276779,47.8854994,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>quilcene</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUUEomdnVkSaEHrYXNCn7BDX9wdVt1nEnhEpRQe1Z91W5PLesDZWoAeil8EpLYMIl5meYNk-QwitgYAEyeSk7UInZK9mrfLGLDHRXXkKApIRduI3fYhkzMvfPOxUpbJQUjmusWvUygoKxBlbXPUekTOL7FldmTQ_mU_F6pBpqvfaQ2e180Hy0VYrZgVQV_DoMzhS6Y?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Some days the south wind misses the sound but comes in here great.  Located at the end of linger longer road.  The sandy beach next to the marina is SE facing.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUUEomdnVkSaEHrYXNCn7BDX9wdVt1nEnhEpRQe1Z91W5PLesDZWoAeil8EpLYMIl5meYNk-QwitgYAEyeSk7UInZK9mrfLGLDHRXXkKApIRduI3fYhkzMvfPOxUpbJQUjmusWvUygoKxBlbXPUekTOL7FldmTQ_mU_F6pBpqvfaQ2e180Hy0VYrZgVQV_DoMzhS6Y?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.8685188,47.7947642,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>right smart cove</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUUYJj8rgmqrijK8qehAhsuey-vQFOLoQxL69FvJNRY3CJfJbBWJP4VDOeMXHJIpoGAgqr_WqF_mqqWzDI_zrcu6lqGNxNowl8s-2sPrhpBcEfio6vhyzDxeDEJyzl3R4YFKHvoqpDiuDsnFGsdcVxD9ysh6b4MnBJBpvXymhyH-Em6rt_v7TtFneOYHRc8U1mDqJM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Located on a short side road along 101.  You can park next to the beach for southerlies.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUUYJj8rgmqrijK8qehAhsuey-vQFOLoQxL69FvJNRY3CJfJbBWJP4VDOeMXHJIpoGAgqr_WqF_mqqWzDI_zrcu6lqGNxNowl8s-2sPrhpBcEfio6vhyzDxeDEJyzl3R4YFKHvoqpDiuDsnFGsdcVxD9ysh6b4MnBJBpvXymhyH-Em6rt_v7TtFneOYHRc8U1mDqJM?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.8824234,47.731819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprague Lake</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWSY24TGabsDCV0bHInnuhgNKdcH9PufKDtRyePta2tQGCJphJugAY9q4m3D8QSzJCjEFKgyeqQDmwTn1QiSGkeXUP04IbwGynp6qBWEDnH1_w9xZMNT7dYqrxBG-Bs-1NkfEyJVfl1xJ2mfpG9cMDMDpRFfxKGZ506ohVOCZMpJ2J5KEz2fmRJLCMAHZ3r9JSMlqI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>April 8, 2018:<br>"I think the best wind direction is SW or South. From what I hear it doesn't get good all that often, but both times I have kited there it was really fun. Today there were tons of migrating birds on the island, including some big white Pelicans. Water was still pretty cold. [...] Parked at the very west end of the Four Seasons Campground/Resort. Tethered to the truck. Nice guy, Scott, owns the property. People usually drop off 5 bucks to launch there." - Rick Kalamar]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWSY24TGabsDCV0bHInnuhgNKdcH9PufKDtRyePta2tQGCJphJugAY9q4m3D8QSzJCjEFKgyeqQDmwTn1QiSGkeXUP04IbwGynp6qBWEDnH1_w9xZMNT7dYqrxBG-Bs-1NkfEyJVfl1xJ2mfpG9cMDMDpRFfxKGZ506ohVOCZMpJ2J5KEz2fmRJLCMAHZ3r9JSMlqI?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -118.0847079,47.2552766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrona Park
+</name>
+      <description><![CDATA[This is a good launch for kiting on the lee side of the I-90 bridge on southerlies. Sometimes southerlies will not make it to Magnuson but you will find wind between the I-90 and 520 bridge. It is also close to downtown for those pot work sessions.<br><br>Temporarily park at the north side of the park where you set up and launch. You will need to park in the south parking lot for your session. This is an easy self launch site on grass. Just place your kite right above the seawall with your bar towards the street. Keep your kite up and over the water while you jump off of the seawall. This is not hard at all.  When you return it is an easy self land. There is a big tree that looks like a big bush where you launched. You can just drop your kite behind it and you kite will rest in a dead zone. <br><br>It is a good idea to stay upwind of the launch, so you have a margin of error if you run into problems and need to self rescue to shore. There are no easy downwind exits. You should be comfortable self rescuing, packing up on the water and exiting through private waterfront property. There are also a few public exits further north if needed.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2821558,47.6102499,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ICR Indian Creek Reservoir</name>
+      <description><![CDATA[This spot seems to be a favorite of Boise riders.  Need more info look to the yahoo group Snowkiteidaho or Facebook group "Boise Kiteboarders"   for more information<br>I just use all the sensors nearby. There are 3 that are close and looking at those and the BOI airport and Mtn Home airport<br><br>Early season before April this reservoir is usually pretty empty so it will only accommodate maybe 2~3 kiters on the water.  Late in the season August it become pretty murky with algae.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.0111618,43.3900955,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plywood Plan</name>
+      <description><![CDATA[A great foil boarding launch with a large field to launch and land your kite.  Best with SW winds, which are very frequent in summer. Doesn't work on SE wind.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5136948,48.7613943,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zuanich Park</name>
+      <description><![CDATA[Expert only launch.  Lot's of people in the park and a rock wall makes this a *very* difficult launch. Doesn't work on a SE wind.  Summer SW evening winds work with big kites.<br><br>"Plywood Plan" near Squalicum a bit NW will basically always be a better choice for foilers, or Locust for shallow water.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4997902,48.7539253,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portage</name>
+      <description>Works on a NE wind.  Kite East to the sandbar for some excellent flat water riding.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.6475906,48.7178094,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Clayton Beach</name>
+      <description><![CDATA[Good for NW winds, see http://wxtofly.net/loopallbasic.html?param=tenmwind&region=PNW&grid=w2. Not as windy as Dogfish. Easier approach (no downclimbing), but longer walk. Fewer naked folks. Suitable for foiling, gets shallower south of there. Best at lower tides, might need to drift launch at very high tide since the beach becomes narrow & winds are turbulent.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4838257,48.6408493,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Casino</name>
+      <description>Great big grass field.  Works on NW and NE wind.  High tide spot.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5174713,48.4576688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Crescent Beach</name>
+      <description>Works on a NW wind.  Great landboarding if you have a day pass from the Resort.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.7088013,48.1615055,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cherry Point</name>
+      <description>Kiteable, but Sandy Point is better.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.7468109,48.8604234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Park</name>
+      <description><![CDATA[Too many people.  Don't launch here.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5021505,48.7325306,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marine Park</name>
+      <description>Usually in the shadow, lots of people.  Post point is better.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5163555,48.7195082,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Post Point</name>
+      <description>Sketchy walk along the tracks.  Sketchy launch.  Sketchy side off conditions.  No bueno.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.5194454,48.7129674,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U Beach Lake Wenatchee N Shore Dr Mid lake</name>
+      <description><![CDATA[Advanced Riders: This is the Launch location for Lake Wenatchee at mid lake.  Its great for downwinders and seems to be more consistent wind then at the Beach/Park. This is a water launch only should only be done by Advanced Riders.   You'll setup your kite and lines behind trees and roll your lines out along the rocky shore.  There is sometimes an anchor in the water but most people tie off to a tree walk back down the shore, lines in hand dropping them into the water till they can place their kite in the water.  This spot can get busy with multiple people launching.    The trail down from the road is pretty clear to see its about a hundred yards east of the last house and is easy to see the pull out. ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -120.7626227,47.8217385,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rooster Rock State Park</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2364684,45.5468328,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seola Beach</name>
+      <description><![CDATA[This is just down the beach from my house.  I kite here anytime it's good, but it is conditions dependent.  The beach is sandy rather than rocky at low tide, making it relatively easy to self launch and land if the tide is -3 or lower.  This area works best with a wind from the north and tends to get a thermal effect in the summer.  Usually 12-14M TT.   Wind from the south works, but the hillside makes the launching a bit challenging.  ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.3782837,47.494624,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lucky Peak Reservoir Barclybay</name>
+      <description><![CDATA[http://windalert.com/spot/93670 <br>Join yahoo group to learn more or boise kiteboarders facebook.<br>snowkiteidaho@yahoogroups.com<br>This spot never gets predicted correctly by any of the forecasters as its a pure morning thermal. Typically the locals check the sensor at 5am and make a decision or not to head here.  The setup for this is to look at Boise airport sensor and if its forecasted for any kind of easterly then check to see if its going to be a cloudy or sunny day.  Lastly if the night was cold with a sunny day coming up you should have a nuking day.<br>The Launch:....<br>This spot is not for the faint of heart as its not a friendly beginner launch there is all kinds of swirling winds and very little room for error.  Typically people will body drag out past the dock to cleaner wind.  Never ever leave your kite at noon here as the swirling winds could shift and drop it out of the sky.<br><br>The Ride: <br>This can be truly one of the best spots in Idaho to ride as the wind comes up through the summer often.  During the summer months you can average 4~5 rideable days a week.  With Foiling that increases to 20~25 days a month.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.0510516,43.5192871,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jetty Island</name>
+      <description><![CDATA[Jetty Island<br>Skill level: Beginner<br>Best wind direction: NW<br><br><br>Warnings:<br>In the summer Jetty becomes a very busy beach full of kiters and beachgoers. Please be extremely courteous to all as we do not want to lose access to this incredible location. Do not put your kite over, kite close to or kite through ANY swimmers in the water. Stay as far north as possible at all times unless you are a long ways out from the beach. There is a “Kiteboarding Zone” free-standing sign that is now in use. Please stay north of that sign. Many spectators come over to Jetty Island just to watch us kite but the majority of them are there to spend time with their children, letting them play in the sand and swim. During the summer the Everett Parks Dept hosts educational shows and events for the kids giving talks and tours of the island and its wildlife. The wind can sometimes be onshore and when the tide is high up to the logs it makes launching and landing a bit trickier. The Coast Guard and Sheriff’s Dept are vigilant about preventing drownings. Your water craft is likely to be inspected. The river crossing to Jetty is cold and deep and the current can be swift. It is the law for kayakers to have and wear their life jackets ($100 fine). Free loaner jackets are available on the north end of the launch. A whistle is also required as is a light for night kayaking. Dogs are not allowed on the island because it is a bird refuge and alcohol is strictly prohibited with a $1000 fine. Be aware that Jetty has no shade or shelter so bring plenty of water and wear sunscreen. Help keep Jetty Island clean! Please use the trash cans. <br><br><br>Conditions:<br>Jetty Island is, in a word, steady! During the months of June – August, Jetty typically blows with afternoon NW thermals beginning between 2-7 pm and can last anywhere from an hour to several hours into the dark. It is a light side-onshore wind so kiters are usually on 14-18m kites, although a few days in the season it may blow 12m. Smaller riders will usually be on 12m kites.<br><br>TJ's forecast (highly reliable but consistently about 5 kt low, updated several times a day):<br>Look for pink or better (9+ kt) through the straights and reaching Jetty Island. 12+ is a solid forecast.<br>http://wxtofly.net/loopallbasic.html?param=tenmwind&region=PNW&grid=d2<br><br>NOAA Marine Forecast (15-20+ kt in East Entrance U.S. Waters Strait Of Juan De Fuca and Admiralty Inlet):<br>https://www.urbansurf.com/weather?beach=JI&surf=WA<br><br>Jetty Island buoy sensor (paid, limited free features, formerly Steamboat Flats): http://wx.ikitesurf.com/en-us/Search/ViewResults.aspx#48.011,-122.202,13,3,93974,1<br><br>Jetty Island sensor (free, community supported, seasonal, usually lower readings than the paid sensor):<br>https://www.wunderground.com/personal-weather-station/dashboard?ID=KWAEVERE78<br><br>Extra sensors:<br>Watch for the Pt Wilson, Hat Island and Point No Point sensors to be NW and the Keystone – Pt Townsend ferry readings to be NW 15 or greater.<br><br>Pressure gradients (Look for Port Angeles - Seattle, current temp +10 F, current pressure gradients NW 0.03" or better):<br>http://nwwind.net/wind.php?region=3&sdate=2017-05-10<br><br>Also, watch for a pressure gradient of about .10 west or larger between Seattle and Wenatchee.<br><br><br>Water: <br>Jetty Island sits in Port Gardner bay which, due to the inlet of the Snohomish River, is a large tidal flat. On low tides there are literally 100’s of yards of beach between the island and the water’s edge. This flat bottom contour creates very smooth water and nice pealing waves on low tides. Common water conditions at Jetty can be very flat on the lighter 16m days and, depending on the tide, rolling swell around 3 feet as the wind picks up. Because the water is so shallow here the temperature is several degrees warmer than the rest of the Sound. On a tide 9 ft and below there will be waist deep water for a long ways out and it can heat up to almost 75 degrees on an incoming tide. Some kiters ride with only shorts, but at least a shorty is recommended as the outer waters are still in the 50s. Small chop is common on the surface and currents don’t affect the riding area.<br><br><br>Rig & Launch:<br>Kayakers should dock their vessels in the designated grass area about 50 m north of the Jetty side boat dock. Remember we have high tide swings. Don’t leave your kayak in the tidal zone. Walk on the path to the west side of the island and then up to the far northern sandy area – above the “Kiteboarding Zone” sign if it is present. This is the best rigging area because it is farthest away from the many beachgoers and children. Rig your gear either on the sand beach (when tide allows) or up on the small sand hill. There will be many other kiters there so self-launching is not usually necessary.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.231226,48.008071,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJ Strike Damn</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWzxul3BOutdrtGe4cDMGL5g3tdQbzyMOwkHSSkssuoiX68igWeDspNl7lMg0Flu6Hf2fTV5MgLS72WCj1sKaARC10q5xV6Fp7Tw2QzNgrUA3lk9PjhXnh-dug4Md2nDnlMXHsSPWGqG_rg7RbDVUHf50Ak6jeN9TcPNI80ZcJHxIiGlpCQ4D1HqK558iN3CgZLuOWK?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Small Craft Advisors are common here.  Tumbleweeds blown across the road to grandview it’s going to be a 9 m day.  CJ Strike - This spot is great for foiling twin tipping pretty shallow 25 yards out.  Launching from this spot there are technically two spots that people launch one is near the trailer where has a nice entry into the water the other is west about 50 yards with a much steeper entry.  Its tough to launch sometimes on the weekend when lots of RV's are parked around the lake.  When laying out your lines to put them across the road until your ready to launch 42.939634, -115.965537  Works on a W or NW<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUVRzT3MCyv2u3MHOzdrbeRaPkQxvLW8KlHCWIogL5M9VzYEgcsyXP2Eh-UNFn18qQfiC6JEUkVlHeAWxqI0ddsaQt9uNJNIfu8SbSPpy6-VNrHUugLatITk2LlbbnoQ8CS3AlfROYRtnbZhzt01L9uEq-2kg7GXf7eAI868rQ5G9DiyFD7VV8pg6JaaehJUw8gZga2?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWzxul3BOutdrtGe4cDMGL5g3tdQbzyMOwkHSSkssuoiX68igWeDspNl7lMg0Flu6Hf2fTV5MgLS72WCj1sKaARC10q5xV6Fp7Tw2QzNgrUA3lk9PjhXnh-dug4Md2nDnlMXHsSPWGqG_rg7RbDVUHf50Ak6jeN9TcPNI80ZcJHxIiGlpCQ4D1HqK558iN3CgZLuOWK?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAUVRzT3MCyv2u3MHOzdrbeRaPkQxvLW8KlHCWIogL5M9VzYEgcsyXP2Eh-UNFn18qQfiC6JEUkVlHeAWxqI0ddsaQt9uNJNIfu8SbSPpy6-VNrHUugLatITk2LlbbnoQ8CS3AlfROYRtnbZhzt01L9uEq-2kg7GXf7eAI868rQ5G9DiyFD7VV8pg6JaaehJUw8gZga2?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -115.9651781,42.9386937,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Hayden</name>
+      <description><![CDATA[Need more details suppose to be better to ride here than Coeur d'Alene ]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.7390063,47.7605605,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Washoe Lake</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWa6Xdx5HBtKoU-XYTwIDOsSYmmx9EzCqjB3dtfz5whlGRvs25Yc_Y2evCAs1UQVV-vf5OQB2VDpvacAj7aKsZzDWLD8ALqwHFAdKzggFsVagvUOr2ILJ3AfMSHBB_NFi29t6XNPusZV2xbHTRI20fmEKGUwmbDW_f-kpJZgToewwfMH_DlIXM9Gc6ILjIQtFDUD2su?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Wind comes rushing down the hillside to this lake 25-35mph.  Lots of room to setup keep an eye on the clouds as thunder storms to the south are part of the setup for this.  Recommended to have a sand bag to hold down your kites down.  <br>Wind: NW, W, SW]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAWa6Xdx5HBtKoU-XYTwIDOsSYmmx9EzCqjB3dtfz5whlGRvs25Yc_Y2evCAs1UQVV-vf5OQB2VDpvacAj7aKsZzDWLD8ALqwHFAdKzggFsVagvUOr2ILJ3AfMSHBB_NFi29t6XNPusZV2xbHTRI20fmEKGUwmbDW_f-kpJZgToewwfMH_DlIXM9Gc6ILjIQtFDUD2su?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -119.792068,39.2754873,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deer Creek State Park</name>
+      <description><![CDATA[When pulling up to this spot park on the roadside and cross the old fence line. This spot is pretty good grassy spot to setup you will then have to walk out through the willows to get to the lake depending on how high the water is in the reservoir.  Here is a video of the launch location https://www.youtube.com/watch?v=hZC79Axmveo <br>There is also a guy that lives nearby that gives kite lessons here.<br>Local Facebook page for conditions: https://www.facebook.com/groups/642336029113658/]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -111.4726228,40.4591604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>silverdale waterfront park</name>
+      <description>Just off of HWY 3.  Plenty of room to set up and launch on the grass.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.6942081,47.6437863,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Skyline - Snowkite Launch</name>
+      <description>Best snowkiting in Utah!</description>
+      <styleUrl>#icon-1690-0097A7</styleUrl>
+      <Point>
+        <coordinates>
+          -111.3032734,39.6147058,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kite location</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -111.7480373,40.166806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coulon Park</name>
+      <description><![CDATA[Works any time the Renton airport is reading >15 N or NW. Good spot with a decent launch and smooth water. When there aren't too many people about this is probably the safest of the Northerly launches on the lake]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.202851,47.508719,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iona Beach</name>
+      <description><![CDATA[Works will in SW and NW breeze.<br>Lots of room to rig and heated bathrooms to change. <br>Possible water quality concerns and kiters have had issues in the past with Park Rangers]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.2030432,49.2105406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wreck Beach</name>
+      <description>Good waves in strong NW but is a long walk from parking to beach</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -123.2622667,49.2616271,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wilson Lake, ID</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -114.1462232,42.6102757,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>American Falls Res, ID</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -112.8402939,42.80598,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJ Strike Reservoir Snake River south side</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAX04QUDj3Ym7DdbKLI9TIFL0w-BB0OBYHlowI5RpdhPWOhvZ6n_u4mkgor30av2_aAO2mltrsbIMCPUjyqtUaNbkpZaixuVtEb8Btj8av3CNcULeqAq1bI2xIHHfUyi2CNa_RXy7SkzhxmKR1cJ-itnXs_wY-ZvwOsyAbFjYVVO0FMNjOHlChcRkphVlFqpHP9vmNIN?authuser=0&fife=s16383" height="200" width="auto" /><br><br>This spot is excellent for riding wind is smoother than at the CJ damn and the water is glassy from an island.  Fairly shallow to walk out in]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAX04QUDj3Ym7DdbKLI9TIFL0w-BB0OBYHlowI5RpdhPWOhvZ6n_u4mkgor30av2_aAO2mltrsbIMCPUjyqtUaNbkpZaixuVtEb8Btj8av3CNcULeqAq1bI2xIHHfUyi2CNa_RXy7SkzhxmKR1cJ-itnXs_wY-ZvwOsyAbFjYVVO0FMNjOHlChcRkphVlFqpHP9vmNIN?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -115.768204,42.9340691,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJ Strike Reservoir Snake River North1</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -115.753437,42.9395639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJ Strike Reservoir Snake River north 2</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -115.7599198,42.9437608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Lowell 1</name>
+      <description>This spot is good launching on a SE later in the season the lake can close down do to Alge blooms but early to mid summer is good riding.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.7249612,43.5892394,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Camas Prairie</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAX07QRYUxbJCNPsTVDVIqS0oHMeK9IPXcB1-iDOwEt3PvCXJRAnXZkg5wNj14FhjJIHgQRmQlDZyFN-Iavs1OZXeAe6V47ApGIFQRdbJmzbSemFJq_qENZgML1os9IY-RVr2D1iszcqy2apIWmeMgGyZgtCsncvedEUUhM9szcRKtNnJOgbAU8ewWIyUCOnr5KuXi4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>There are several spots along Sun-Valley Hwy to snow kite but this is a popular launching spot.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAV6KI1cnaUFq-YaLeNJI2yLf-xI-YmbMRlzb0aHP9WwosOOufXnkeuWGUbnlmVfQl5-W_gLDdhamFc7NAUTo46itb55dHVnaiQ9Ty-cI8iOTPwUMcvjgZvGzKCGzoXfUURc1IQvUv2xlK5TjTVJttr61jJuQxxXNDXKq0iMZw41JGhmY0qdxfxltHVsnykrUA-yPnM?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1690-0097A7</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAX07QRYUxbJCNPsTVDVIqS0oHMeK9IPXcB1-iDOwEt3PvCXJRAnXZkg5wNj14FhjJIHgQRmQlDZyFN-Iavs1OZXeAe6V47ApGIFQRdbJmzbSemFJq_qENZgML1os9IY-RVr2D1iszcqy2apIWmeMgGyZgtCsncvedEUUhM9szcRKtNnJOgbAU8ewWIyUCOnr5KuXi4?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAV6KI1cnaUFq-YaLeNJI2yLf-xI-YmbMRlzb0aHP9WwosOOufXnkeuWGUbnlmVfQl5-W_gLDdhamFc7NAUTo46itb55dHVnaiQ9Ty-cI8iOTPwUMcvjgZvGzKCGzoXfUURc1IQvUv2xlK5TjTVJttr61jJuQxxXNDXKq0iMZw41JGhmY0qdxfxltHVsnykrUA-yPnM?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -114.823303,43.6859473,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJ Strike Reservoir Snake River (Pump stn.</name>
+      <description><![CDATA[Stop by the house near 2nd turn rt, S of bridge and let them know you're using it. From 'main' dirt road, rt at fence line, gate down to irr. pumphouse.<br>Directions: To here - From here]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -115.7776793,42.9372068,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CJ Strike Reservoir Bruneau arm</name>
+      <description><![CDATA[Above (E of) the Narrows, off ID 78 toward Cottonwood Campground<br>Directions: To here - From here]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -115.8930692,42.9132665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Lowell - S. Shore</name>
+      <description><![CDATA[Open Apr.15-Sept.30. Lake Shore Dr., paved parking area about midlake. This spot is more for windsurfing it appears as you don't have any direct lake access for kites]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.6681917,43.5356389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Lake Lowell - Gott's Point]]></name>
+      <description><![CDATA[Open Apr.15-Sept.30. Entrance is via Greenhurst Rd., to parking at end of road at Gott's Point]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.639962,43.5440974,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cascade Lake N Boulder Creek</name>
+      <description>NW is your best wind, works with a westerly but very gusty as it rolls down the mountain.  I suspect that it should work on a southerly as well.</description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -116.0995889,44.6853682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Odell Lake</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVqfhEr2cNeTL2naa5t4GCHekXPIPugfdFeN9A7WFCCKOcXQBeZv6ed9SjEaqkzKalscTJkrYkmte2wJdVwoFRLNnv2ITC0RO7Ff52ZP0HTVWlKmEYyp-ztCRwPYjOZpcnfn6dLzPAlRquUjEJtRY9kqGO0t2BIQG-7mDGS43PQkjLab978fZr5ep0OEi9tXZJ9ND2i?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Odell Lake guide: Advanced launch only The windiest lake in central OR with 9-12m almost every afternoon in Summer. This is my favorite place besides the Gorge and it’s an hour from Bend. READ ALL NOTES PLEASE so we don’t lose access. IMPORTANT!!!!: you MUST buy lunch or dinner from the resort restaurant in order to keep us being able to launch there (~$20). Launch = VERY ADVANCED. You have about 10 feet between you and a kitemare. If your kite back stalls, drifts down wind or hits a lull during launch it will get stuck in a fir tree or sailboat mast. You have one chance to get it right and MUST BE ABLE TO GO UPWIND IMMEDIATELY. Landing = Always self-rescue and drift in. Forecast: Clouds/fog on coast in am + sunny out east + >12 degree temp difference. Odell tends to be 8-10mph less than Rufus and works on similar forecasts. Kite size = choose 2-3M bigger than at sea level as you are near 5k feet. Ask questions in comments. #bendkiteboarding]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVqfhEr2cNeTL2naa5t4GCHekXPIPugfdFeN9A7WFCCKOcXQBeZv6ed9SjEaqkzKalscTJkrYkmte2wJdVwoFRLNnv2ITC0RO7Ff52ZP0HTVWlKmEYyp-ztCRwPYjOZpcnfn6dLzPAlRquUjEJtRY9kqGO0t2BIQG-7mDGS43PQkjLab978fZr5ep0OEi9tXZJ9ND2i?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -121.9707522,43.5528469,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wickiup Reservoir</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVvUw-RkFsdCYmjixSW_9BvCZE5YQc0hH21-MxdWJAuYkpX46pqVQ7WUMuor3_DMJArm3z0-xl5rpjn8Y5pw5ddRey6jHPYmfBWQS_Ik0x7Ix-iA7PJiV_oFDO5hvgVuNucS6ouyVaKPgHAGHEbx2IPGVRssTTArriwDNhNRIEa36CFZ5m9PC04mdZHtlNLEmIb3R8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>A guide to Wickiup Res. Look for Wickiup sensor gusts over 12=foil time. 20 and over = good twintip. Forecast best: cloudy in Eugene sunny out east with high pressure building offshore w W or NW direction, SW works too but need more wind. Res levels vary hugely. No beach when >78% full. #bendkiteboarding]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAVvUw-RkFsdCYmjixSW_9BvCZE5YQc0hH21-MxdWJAuYkpX46pqVQ7WUMuor3_DMJArm3z0-xl5rpjn8Y5pw5ddRey6jHPYmfBWQS_Ik0x7Ix-iA7PJiV_oFDO5hvgVuNucS6ouyVaKPgHAGHEbx2IPGVRssTTArriwDNhNRIEa36CFZ5m9PC04mdZHtlNLEmIb3R8?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -121.6921628,43.682293,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East Point Kite Beach</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.8780362,45.6930664,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 159</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4856837,47.9983696,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MGM Grand</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -115.1702533,36.102576,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ship Harbor</name>
+      <description>Works on N, NE Winds walk west down beach towards ferries for sandy area to launch from if tide is up.  </description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.672324,48.5053902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strawberry north snow kite
+</name>
+      <description>Great spot for west and southerly winds. Offers hillsides to the east, and some protection in the valley to the north.</description>
+      <styleUrl>#icon-1690-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -111.1571461,40.2442799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Red Lake Peak bowl
+</name>
+      <description>Decent snow kiting on west winds. Pretty high up, and requires skin in from snow park. Can also continue from here into terrain further to the N.</description>
+      <styleUrl>#icon-1690-0097A7</styleUrl>
+      <Point>
+        <coordinates>
+          -119.9954065,38.703152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 166</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -68.9889564,45.0574575,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Perch Point at Potholes Reservoir</name>
+      <description><![CDATA[There is easy access to Potholes Reservoir at Perch Point, with a long deserted coastline of sand and fist size rocks. The NW area of the lake has tons of flatwater lagoons and shallow sandy bottom but you really need a boat to access this area (or a sand dune capable vehicle and come in from the sand dune area south of moses lake.) The water level is high right now (June) and is generally 15ft lower by the end of the summer, when there is a wide sandy border to all those lagoons and little islands.<br><br>Wind<br>Not an unusually windy place but when it does blow it is typically SW and pretty steady 12m conditions.<br>Weather.com sensor and forecast here (http://www.weather.com/weather/today/Potholes+Golf+Course+WA+1046949:5?from=golf_courseprofile). The sensor seems to read a little high. WSU sensors here (http://weather.wsu.edu/). These usually read much lower than the first link. The truth is probably somewhere in-between. Grant County airport sensor (http://weather.noaa.gov/weather/current/KMWH.html), 10 miles to the north. NOAA Zone forecast (http://www.weather.gov/view/prodsByState.php?state=WA&prodtype=zone), search for Moses Lake. NOAA Point forecast (http://forecast.weather.gov/MapClick.php?lat=46.99851933611913&lon=-119.28165435791015&site=otx&smap=1&unit=0&lg=en&FcstType=text).]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -119.28174,46.997641,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 167</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.8542227,49.696488,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 167</name>
+      <styleUrl>#icon-22-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -103.2524906,38.2441083,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bighorn / Bald Mountain
+</name>
+      <description>Classic snowkite spot. Bighorn Snow Kite summit is run out of Wyoming High Country Lodge.</description>
+      <styleUrl>#icon-1690-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -107.8414814,44.809313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Artist Point (snow kite)
+</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXj867-E9qFHKih_x5bUlnGYJaYCd7A1_GOLR207DWADJE4WB52G-haBXbpYVFlc7y-p02ZOzcxlyky1inNq-m0isTsdHr6_GqrqqxVjjml7hgQitXpj79Bf5y1XUN_e8I0d4Etp3KNfnoUC_v1IWXLbtnT7pNiwYvk4WFq0OL_dfBIRsUhOKhiz07T-_NsUQ97JZ8G?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Fun intermediate / advanced spot in SE through NE winds. Artist point has rolling hills and fairly mellow slopes to the east. Forecast at https://www.windy.com/48.846/-121.691?namConus,48.843,-121.691,14,m:e0zacMl. The wind meter at Panorama Dome slightly east is a good match for Artist Point. <br>Approach: The road is closed in winter, so approach is a backcountry skin track from the Heather Meadows backcountry parking area. Note that this is avalanche terrain, check https://nwac.us/avalanche-forecast/#/west-slopes-north. The route to Artist Point is usually well traveled and safe.]]></description>
+      <styleUrl>#icon-1690-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAXj867-E9qFHKih_x5bUlnGYJaYCd7A1_GOLR207DWADJE4WB52G-haBXbpYVFlc7y-p02ZOzcxlyky1inNq-m0isTsdHr6_GqrqqxVjjml7hgQitXpj79Bf5y1XUN_e8I0d4Etp3KNfnoUC_v1IWXLbtnT7pNiwYvk4WFq0OL_dfBIRsUhOKhiz07T-_NsUQ97JZ8G?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -121.6919929,48.8469196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Neptune Beach
+</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAX-Sggt_-zxzFneyw1ajMOsKswZ4BdYVXHLdQj9_Y_IWu7NyRdz1LEYRVehbh8fPkNr1ljJxopbIjpPYsvEj4R6fHeneJHpJS5nq95mAUfX1M9pxAnaHsXndOV7PkxxsbbMxJ03yFvgKZfaxx04X9EfRYIo0CLb7mVzSowtc82ehBgwRE2yJL5u0sBKUu85YdOuFQuZ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>Nice foil spot for NW through SW winds. Best with low tides <4ft, otherwise the beach will be very narrow. The beach is mostly sand, with some smooth rocks. There is limited parking along the road, no parking in the beach access drive itself.]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3APRDMAX-Sggt_-zxzFneyw1ajMOsKswZ4BdYVXHLdQj9_Y_IWu7NyRdz1LEYRVehbh8fPkNr1ljJxopbIjpPYsvEj4R6fHeneJHpJS5nq95mAUfX1M9pxAnaHsXndOV7PkxxsbbMxJ03yFvgKZfaxx04X9EfRYIo0CLb7mVzSowtc82ehBgwRE2yJL5u0sBKUu85YdOuFQuZ?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122.7089838,48.8160641,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Kees & Claire snowkite
+]]></name>
+      <description>Broad shoulder with good kiting. Lots of ski terrain nearby, too. See https://spearheadhuts.org/kees-and-claire-memorial-hut</description>
+      <styleUrl>#icon-1690-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -122.8934094,50.0312316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hunter Beach</name>
+      <description><![CDATA[A significant amount of information is available about Hunter.  You can read about it here:http://pskite.org/viewtopic.php?f=6&t=5031]]></description>
+      <styleUrl>#icon-22</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4212981,48.5880199,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
