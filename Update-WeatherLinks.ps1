@@ -1,24 +1,72 @@
-$kmlPath  = "c:\Code\Kiteboarding\Kiting spots.kml"
+param (
+    [Parameter(Mandatory = $true)]
+    [ValidateScript({Test-Path $_ -PathType Leaf})]
+    [string]$Path,
 
-$kmlContent = Get-Content -Path $kmlPath
-[xml]$kml = $kmlContent
+    [Parameter(Mandatory = $true)]
+    [string]$DestinationPath    
+)
+
+$encoding = [System.Text.Encoding]::GetEncoding("UTF-8")
+$content = [System.IO.File]::ReadAllText($Path, $encoding)
+$xmlDocument = New-Object System.Xml.XmlDocument
+$xmlDocument.LoadXml($content)
 
 $updateFailed = $false
 
-foreach ($placemark in $kml.kml.Document.Placemark) {
+# this function preserves the original Unix(LF)/UTF-8 encoding
+# by default on Windows the encoding is changed to Windows(CRLF)/UTF-8 BOM which breaks the google map
+function Save-UnixXml {
+    [CmdletBinding()]
+    param(
+        [Parameter(ValueFromPipeline = $true, Mandatory = $true, Position = 0)]
+        [xml]$xml,
 
-    Write-Host $placemark.name
+        [Parameter(ValueFromPipeline = $true, Mandatory = $true, Position = 1)]
+        [Alias('FilePath')]
+        [string]$Path
+    )
+    try {
+        $settings = [System.Xml.XmlWriterSettings]::new()
+        $settings.Indent       = $true                                     # defaults to $false
+        $settings.NewLineChars = "`n"                                      # defaults to "`r`n"
+        $settings.Encoding     = [System.Text.UTF8Encoding]::new($false)   # $false means No BOM
 
-    if (!$placemark.description.HasChildNodes) {
+        $xmlWriter = [System.Xml.XmlWriter]::Create($Path, $settings)
+
+        $xml.WriteTo($xmlWriter)
+        $xmlWriter.Flush()
+    }
+    finally {
+        # cleanup
+        if ($xmlWriter) { $xmlWriter.Dispose() }
+    }
+}
+
+$namespace = New-Object System.Xml.XmlNamespaceManager($xmlDocument.NameTable)
+$namespace.AddNamespace("kml", "http://www.opengis.net/kml/2.2")
+$placemarks = $xmlDocument.SelectNodes("//kml:Placemark", $namespace)
+
+# walk through all placemarks and update the description
+foreach ($placemark in $placemarks) {
+
+    $nameNode = $placemark.SelectSingleNode("./kml:name", $namespace);
+    Write-Host $nameNode.InnerText
+
+    $coordinatesNode = $placemark.SelectSingleNode("./kml:Point/kml:coordinates", $namespace);
+    if ($null -eq $coordinatesNode) {
+        continue;
+    }
+
+    $descriptionNode = $placemark.SelectSingleNode("./kml:description", $namespace);
+    if ($null -eq $descriptionNode -or !$descriptionNode.HasChildNodes) {
         continue
     }
 
-    if ($null -eq $placemark.Point.coordinates) {
-        continue
-    }
+    $descriptionContent = $descriptionNode.FirstChild
 
     try {
-        $coordinates = $placemark.Point.coordinates.Split(",")
+        $coordinates = $coordinatesNode.InnerText.Split(",")
         if ($coordinates.Length -lt 2) {
             continue;
         }
@@ -26,18 +74,18 @@ foreach ($placemark in $kml.kml.Document.Placemark) {
         $lon = [double]$coordinates[0]
         $lat = [double]$coordinates[1]
     
-        $windyHref = "https://www.windy.com/$lat/$lon/wind?$lat,$lon"
+        $windyLink = "https://www.windy.com/$lat/$lon/wind?$lat,$lon"
     
-        Write-Host "Windy: $windyHref"
-    
-        $windyLink = "<a href=""$windyHref"">Windy</a><br>"
-        $descriptionText = $placemark.description.FirstChild
+        Write-Host "Windy: $windyLink"
 
-        if ($descriptionText.NodeType -ne "CDATA") {
-            continue;
+        $descriptionNode.InnerText = "$windyLink<br><br>" + $descriptionContent.InnerText
+
+        #update style
+        $styleUrlNode = $placemark.SelectSingleNode("./kml:styleUrl", $namespace);
+        if ($null -ne $styleUrlNode -and $styleUrlNode.InnerText -eq "#icon-ci-1") {
+            $styleUrlNode.InnerText = "#icon-22"
         }
-        $descriptionText.Value = $windyLink + $descriptionText.Value
-        }
+    }
     catch {
         $updateFailed = $true
         Write-Error $_.Exception
@@ -46,5 +94,5 @@ foreach ($placemark in $kml.kml.Document.Placemark) {
 }
 
 if (!$updateFailed) {
-    $kml.Save($kmlPath)
+    Save-UnixXml $xmlDocument -Path $DestinationPath
 }
