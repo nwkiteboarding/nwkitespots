@@ -1,6 +1,6 @@
 # USA NW Kite Spots
 
-This repository contains NW kite spot data in KML format for a shared Google map https://www.google.com/maps/d/viewer?msa=0&mid=1khDKSoOxKkahP6TJwRDAxDZG1cc&ll=47.17937241288421%2C-122.443678&z=11.
+This repository contains NW kite spot data for a shared Google map https://www.google.com/maps/d/viewer?msa=0&mid=1khDKSoOxKkahP6TJwRDAxDZG1cc&ll=47.17937241288421%2C-122.443678&z=11.
 
 ## Original Version
 
