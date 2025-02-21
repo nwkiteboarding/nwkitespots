@@ -9,7 +9,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: valitydev/action-download-file@v1
-        with:
-          url: https://www.google.com/maps/d/kml?mid=1khDKSoOxKkahP6TJwRDAxDZG1cc
-          target-path: ./Backup/Map.kmz
+      - name: Download map as KMZ
+        run: wget -O ./Backup/Map.kmz https://www.google.com/maps/d/kml?mid=1khDKSoOxKkahP6TJwRDAxDZG1cc
+        shell: bash
+
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add .
+      - name: commit changed files
+        run: git commit -m "Updating map backup"
+      - name: push code to main
+        run: git push
