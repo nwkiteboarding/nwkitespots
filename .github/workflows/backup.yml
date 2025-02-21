@@ -12,4 +12,4 @@ jobs:
       - uses: valitydev/action-download-file@v1
         with:
           url: https://www.google.com/maps/d/kml?mid=1khDKSoOxKkahP6TJwRDAxDZG1cc
-          target-path: ./Backup/USA NW Kite Spots.kmz
+          target-path: "./Backup/USA NW Kite Spots.kmz"
