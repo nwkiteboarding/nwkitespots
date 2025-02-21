@@ -4,6 +4,9 @@ on: workflow_dispatch
 
 jobs:
   backup:
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
