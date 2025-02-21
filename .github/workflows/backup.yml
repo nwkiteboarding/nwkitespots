@@ -1,0 +1,15 @@
+name: Manual workflow
+
+on: workflow_dispatch
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: valitydev/action-download-file@v1
+        with:
+          url: https://www.google.com/maps/d/kml?mid=1khDKSoOxKkahP6TJwRDAxDZG1cc
+          target-path: ./Backup/USA NW Kite Spots.kmz
