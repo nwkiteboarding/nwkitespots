@@ -18,6 +18,6 @@ jobs:
       - name: stage changed files
         run: git add .
       - name: commit changed files
-        run: git commit -m "Updating map backup"
+        run: git commit -m "Updating map backup" --author="Automated Backup <>"
       - name: push code to main
         run: git push
