@@ -1,8 +1,9 @@
-name: Manual workflow
+name: Backup
 
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   backup:
@@ -14,16 +15,22 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Download map as KMZ
+      - name: Download original map as KMZ
         env:
           ORIGINAL_MAP_URL: ${{ secrets.ORIGINAL_MAP_URL }}
-        run: wget -O ./Backup/Map.kmz "$ORIGINAL_MAP_URL"
+        run: wget -O ./Backup/Original.kmz "$ORIGINAL_MAP_URL"
+        shell: bash
+
+      - name: Download original map as KMZ
+        env:
+          MITCHD_MAP_URL: ${{ secrets.MITCHD_MAP_URL }}
+        run: wget -O ./Backup/MitchD.kmz "$MITCHD_MAP_URL"
         shell: bash
 
       - name: check for changes
         run: git status
       - name: stage changed files
-        run: git add .
+        run: git add ./Backup
       - name: stage changed files
         run: git config user.name "Automation"
       - name: commit changed files
