@@ -29,5 +29,7 @@ jobs:
         run: git config user.name "Automation"
       - name: commit changed files
         run: git -c user.name="GitHub Actions" -c user.email="none@nwkitespots.com" commit -m "Updating map backup"
+      - name: sync main
+        run: git pull
       - name: push code to main
         run: git push
