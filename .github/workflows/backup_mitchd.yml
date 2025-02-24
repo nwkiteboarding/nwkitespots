@@ -25,7 +25,6 @@ jobs:
         run: | 
           git status
           git add ./Backup
-          git config user.name "Automation"
           git -c user.name="GitHub Actions" -c user.email="none@nwkitespots.com" commit -m "Updating map backup"
           git config pull.rebase false
           git pull
