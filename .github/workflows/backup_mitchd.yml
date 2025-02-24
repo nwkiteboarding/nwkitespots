@@ -17,12 +17,6 @@ jobs:
 
       - name: Download original map as KMZ
         env:
-          ORIGINAL_MAP_URL: ${{ secrets.ORIGINAL_MAP_URL }}
-        run: wget -O ./Backup/Original.kmz "$ORIGINAL_MAP_URL"
-        shell: bash
-
-      - name: Download original map as KMZ
-        env:
           MITCHD_MAP_URL: ${{ secrets.MITCHD_MAP_URL }}
         run: wget -O ./Backup/MitchD.kmz "$MITCHD_MAP_URL"
         shell: bash
