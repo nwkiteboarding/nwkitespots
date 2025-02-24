@@ -2,6 +2,10 @@
 
 This repository contains NW kite spot data for a shared Google map https://www.google.com/maps/d/viewer?msa=0&mid=1khDKSoOxKkahP6TJwRDAxDZG1cc&ll=47.17937241288421%2C-122.443678&z=11.
 
+## Backup Status
+[![Backup 1](https://github.com/nwkiteboarding/nwkitespots/actions/workflows/backup_original.yml/badge.svg)](https://github.com/nwkiteboarding/nwkitespots/actions/workflows/backup_original.yml)
+[![Backup 2](https://github.com/nwkiteboarding/nwkitespots/actions/workflows/backup_mitchd.yml/badge.svg)](https://github.com/nwkiteboarding/nwkitespots/actions/workflows/backup_mitchd.yml)
+
 ## Original Version
 
 The **Original** folder contains the original data when this repository was created in February 2025. The file **USA NW Kite Spots.kmz** was created by exporting the whole map and **Kiting spots.kmz** was created by exporting data for the **Kiting spots** layer.
