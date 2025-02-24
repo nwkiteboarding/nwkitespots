@@ -1,0 +1,31 @@
+name: Backup
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  backup:
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download original map as KMZ
+        env:
+          ORIGINAL_MAP_URL: ${{ secrets.ORIGINAL_MAP_URL }}
+        run: wget -O ./Backup/Original.kmz "$ORIGINAL_MAP_URL"
+        shell: bash
+
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add ./Backup
+      - name: commit changed files
+        run: git -c user.name="GitHub Actions" -c user.email="none@nwkitespots.com" commit -m "Updating map backup"
+      - name: push code to main
+        run: git push
