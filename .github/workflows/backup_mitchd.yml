@@ -21,15 +21,12 @@ jobs:
         run: wget -O ./Backup/MitchD.kmz "$MITCHD_MAP_URL"
         shell: bash
 
-      - name: check for changes
-        run: git status
-      - name: stage changed files
-        run: git add ./Backup
-      - name: stage changed files
-        run: git config user.name "Automation"
-      - name: commit changed files
-        run: git -c user.name="GitHub Actions" -c user.email="none@nwkitespots.com" commit -m "Updating map backup"
-      - name: sync main
-        run: git pull
-      - name: push code to main
-        run: git push
+      - name: Update backup file
+        run: | 
+          git status
+          git add ./Backup
+          git config user.name "Automation"
+          git -c user.name="GitHub Actions" -c user.email="none@nwkitespots.com" commit -m "Updating map backup"
+          git config pull.rebase false
+          git pull
+          git push
